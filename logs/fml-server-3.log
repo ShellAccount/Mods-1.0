@@ -1,0 +1,1044 @@
+[17:04:12] [main/DEBUG] [FML/]: Injecting tracing printstreams for STDOUT/STDERR.
+[17:04:12] [main/INFO] [FML/]: Forge Mod Loader version 7.99.40.1614 for Minecraft 1.7.10 loading
+[17:04:12] [main/INFO] [FML/]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_275, running on Linux:amd64:5.8.0-1016-gcp, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
+[17:04:12] [main/DEBUG] [FML/]: Java classpath at launch is forge-1.7.10-10.13.4.1614-1.7.10-universal.jar
+[17:04:12] [main/DEBUG] [FML/]: Java library path at launch is /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+[17:04:12] [main/DEBUG] [FML/]: Enabling runtime deobfuscation
+[17:04:12] [main/DEBUG] [FML/]: Instantiating coremod class FMLCorePlugin
+[17:04:12] [main/DEBUG] [FML/]: Added access transformer class cpw.mods.fml.common.asm.transformers.AccessTransformer to enqueued access transformers
+[17:04:12] [main/DEBUG] [FML/]: Enqueued coremod FMLCorePlugin
+[17:04:12] [main/DEBUG] [FML/]: Instantiating coremod class FMLForgePlugin
+[17:04:12] [main/DEBUG] [FML/]: Added access transformer class net.minecraftforge.transformers.ForgeAccessTransformer to enqueued access transformers
+[17:04:12] [main/DEBUG] [FML/]: Enqueued coremod FMLForgePlugin
+[17:04:12] [main/DEBUG] [FML/]: All fundamental core mods are successfully located
+[17:04:12] [main/DEBUG] [FML/]: Attempting to load commandline specified mods, relative to /home/minecraftmods/forge1.7/.
+[17:04:12] [main/DEBUG] [FML/]: Discovering coremods
+[17:04:12] [main/DEBUG] [FML/]: Examining for coremod candidacy 1.7.10-MB_Battlegear2-Bullseye-1.0.8.3.jar
+[17:04:12] [main/TRACE] [FML/]: Found FMLCorePluginContainsFMLMod marker in 1.7.10-MB_Battlegear2-Bullseye-1.0.8.3.jar, it will be examined later for regular @Mod instances
+[17:04:12] [main/DEBUG] [FML/]: Instantiating coremod class BattlegearLoadingPlugin
+[17:04:12] [main/TRACE] [FML/]: coremod named Mine and Blade: Battlegear2 is loading
+[17:04:12] [main/WARN] [FML/]: The coremod mods.battlegear2.coremod.BattlegearLoadingPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[17:04:12] [main/DEBUG] [FML/]: Added access transformer class mods.battlegear2.coremod.transformers.BattlegearAccessTransformer to enqueued access transformers
+[17:04:12] [main/DEBUG] [FML/]: Enqueued coremod Mine and Blade: Battlegear2
+[17:04:12] [main/DEBUG] [FML/]: Examining for coremod candidacy [1.7.10]bspkrsCore-universal-6.15 (1).jar
+[17:04:12] [main/DEBUG] [FML/]: Not found coremod data in [1.7.10]bspkrsCore-universal-6.15 (1).jar
+[17:04:12] [main/DEBUG] [FML/]: Examining for coremod candidacy [1.7.10]Treecapitator-universal-2.0.4.jar
+[17:04:12] [main/DEBUG] [FML/]: Not found coremod data in [1.7.10]Treecapitator-universal-2.0.4.jar
+[17:04:12] [main/DEBUG] [FML/]: Examining for coremod candidacy aether-1.7.10-1.6.jar
+[17:04:12] [main/DEBUG] [FML/]: Not found coremod data in aether-1.7.10-1.6.jar
+[17:04:12] [main/DEBUG] [FML/]: Examining for coremod candidacy backpack-2.0.1-1.7.x.jar
+[17:04:12] [main/DEBUG] [FML/]: Not found coremod data in backpack-2.0.1-1.7.x.jar
+[17:04:12] [main/DEBUG] [FML/]: Examining for coremod candidacy BiblioCraft[v1.11.7][MC1.7.10].jar
+[17:04:12] [main/DEBUG] [FML/]: Not found coremod data in BiblioCraft[v1.11.7][MC1.7.10].jar
+[17:04:12] [main/DEBUG] [FML/]: Examining for coremod candidacy EnchantingPlus-1.7.10-3.0.2-d.jar
+[17:04:12] [main/DEBUG] [FML/]: Not found coremod data in EnchantingPlus-1.7.10-3.0.2-d.jar
+[17:04:12] [main/DEBUG] [FML/]: Examining for coremod candidacy EvilCraft-1.7.10.jar
+[17:04:12] [main/DEBUG] [FML/]: Not found coremod data in EvilCraft-1.7.10.jar
+[17:04:12] [main/DEBUG] [FML/]: Examining for coremod candidacy farlanders-1.7.10-v1.2b (1).jar
+[17:04:12] [main/DEBUG] [FML/]: Not found coremod data in farlanders-1.7.10-v1.2b (1).jar
+[17:04:12] [main/DEBUG] [FML/]: Examining for coremod candidacy gilded-games-util-1.7.10-1.9.jar
+[17:04:12] [main/TRACE] [FML/]: Found FMLCorePluginContainsFMLMod marker in gilded-games-util-1.7.10-1.9.jar, it will be examined later for regular @Mod instances
+[17:04:12] [main/DEBUG] [FML/]: Instantiating coremod class TLLoadingPlugin
+[17:04:12] [main/DEBUG] [FML/]: The coremod com.gildedgames.util.threadedlighting.TLLoadingPlugin requested minecraft version 1.7.10 and minecraft is 1.7.10. It will be loaded.
+[17:04:12] [main/DEBUG] [FML/]: Enqueued coremod TLLoadingPlugin
+[17:04:12] [main/DEBUG] [FML/]: Examining for coremod candidacy GraveStone+Mod+0.7.10.3.jar
+[17:04:12] [main/DEBUG] [FML/]: Not found coremod data in GraveStone+Mod+0.7.10.3.jar
+[17:04:12] [main/DEBUG] [FML/]: Examining for coremod candidacy ironchest-1.7.10-6.0.62.742-universal.jar
+[17:04:12] [main/DEBUG] [FML/]: Not found coremod data in ironchest-1.7.10-6.0.62.742-universal.jar
+[17:04:12] [main/DEBUG] [FML/]: Examining for coremod candidacy ironfurnaces-1.2.4R.jar
+[17:04:12] [main/DEBUG] [FML/]: Not found coremod data in ironfurnaces-1.2.4R.jar
+[17:04:12] [main/DEBUG] [FML/]: Examining for coremod candidacy MCA-1.7.10-5.2.2-universal.jar
+[17:04:12] [main/DEBUG] [FML/]: Not found coremod data in MCA-1.7.10-5.2.2-universal.jar
+[17:04:12] [main/DEBUG] [FML/]: Examining for coremod candidacy More-Pickaxes-Mod-1.7.10.jar
+[17:04:12] [main/DEBUG] [FML/]: Not found coremod data in More-Pickaxes-Mod-1.7.10.jar
+[17:04:12] [main/DEBUG] [FML/]: Examining for coremod candidacy MrCrayfishFurnitureModv3.4.7(1.7.10).jar
+[17:04:12] [main/DEBUG] [FML/]: Not found coremod data in MrCrayfishFurnitureModv3.4.7(1.7.10).jar
+[17:04:12] [main/DEBUG] [FML/]: Examining for coremod candidacy RadixCore-1.7.10-2.1.3-universal.jar
+[17:04:12] [main/DEBUG] [FML/]: Not found coremod data in RadixCore-1.7.10-2.1.3-universal.jar
+[17:04:12] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[17:04:12] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[17:04:12] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[17:04:12] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[17:04:12] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[17:04:12] [main/DEBUG] [FML/]: Injecting coremod FMLCorePlugin {cpw.mods.fml.relauncher.FMLCorePlugin} class transformers
+[17:04:12] [main/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.MarkerTransformer
+[17:04:12] [main/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.SideTransformer
+[17:04:12] [main/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.EventSubscriptionTransformer
+[17:04:12] [main/DEBUG] [FML/]: Injection complete
+[17:04:12] [main/DEBUG] [FML/]: Running coremod plugin for FMLCorePlugin {cpw.mods.fml.relauncher.FMLCorePlugin}
+[17:04:12] [main/DEBUG] [FML/]: Running coremod plugin FMLCorePlugin
+[17:04:13] [main/DEBUG] [FML/]: Read 527 binary patches
+[17:04:13] [main/INFO] [FML/]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[17:04:13] [main/DEBUG] [FML/]: Coremod plugin class FMLCorePlugin run successfully
+[17:04:13] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[17:04:13] [main/DEBUG] [FML/]: Injecting coremod FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin} class transformers
+[17:04:13] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.classloading.FluidIdTransformer
+[17:04:13] [main/DEBUG] [FML/]: Injection complete
+[17:04:13] [main/DEBUG] [FML/]: Running coremod plugin for FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin}
+[17:04:13] [main/DEBUG] [FML/]: Running coremod plugin FMLForgePlugin
+[17:04:13] [main/DEBUG] [FML/]: Coremod plugin class FMLForgePlugin run successfully
+[17:04:13] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[17:04:13] [main/DEBUG] [FML/]: Loaded 57 rules from AccessTransformer config file fml_at.cfg
+[17:04:13] [main/DEBUG] [FML/]: Loaded 89 rules from AccessTransformer config file forge_at.cfg
+[17:04:13] [main/DEBUG] [FML/]: Loaded 9 rules from AccessTransformer config file battlegear_at.cfg
+[17:04:13] [main/DEBUG] [FML/]: Validating minecraft
+[17:04:14] [main/DEBUG] [FML/]: Minecraft validated, launching...
+[17:04:14] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[17:04:14] [main/DEBUG] [FML/]: Injecting coremod TLLoadingPlugin {com.gildedgames.util.threadedlighting.TLLoadingPlugin} class transformers
+[17:04:14] [main/TRACE] [FML/]: Registering transformer com.gildedgames.util.threadedlighting.asm.TLTransformer
+[17:04:14] [main/DEBUG] [FML/]: Injection complete
+[17:04:14] [main/DEBUG] [FML/]: Running coremod plugin for TLLoadingPlugin {com.gildedgames.util.threadedlighting.TLLoadingPlugin}
+[17:04:14] [main/DEBUG] [FML/]: Running coremod plugin TLLoadingPlugin
+[17:04:14] [main/DEBUG] [FML/]: Coremod plugin class TLLoadingPlugin run successfully
+[17:04:14] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[17:04:14] [main/DEBUG] [FML/]: Injecting coremod Mine and Blade: Battlegear2 {mods.battlegear2.coremod.BattlegearLoadingPlugin} class transformers
+[17:04:14] [main/TRACE] [FML/]: Registering transformer mods.battlegear2.coremod.transformers.EntityPlayerTransformer
+[17:04:15] [main/TRACE] [FML/]: Registering transformer mods.battlegear2.coremod.transformers.ModelBipedTransformer
+[17:04:15] [main/TRACE] [FML/]: Registering transformer mods.battlegear2.coremod.transformers.NetClientHandlerTransformer
+[17:04:15] [main/TRACE] [FML/]: Registering transformer mods.battlegear2.coremod.transformers.NetServerHandlerTransformer
+[17:04:15] [main/TRACE] [FML/]: Registering transformer mods.battlegear2.coremod.transformers.PlayerControllerMPTransformer
+[17:04:15] [main/TRACE] [FML/]: Registering transformer mods.battlegear2.coremod.transformers.ItemRendererTransformer
+[17:04:15] [main/TRACE] [FML/]: Registering transformer mods.battlegear2.coremod.transformers.MinecraftTransformer
+[17:04:15] [main/TRACE] [FML/]: Registering transformer mods.battlegear2.coremod.transformers.ItemStackTransformer
+[17:04:15] [main/TRACE] [FML/]: Registering transformer mods.battlegear2.coremod.transformers.ItemInWorldTransformer
+[17:04:15] [main/TRACE] [FML/]: Registering transformer mods.battlegear2.coremod.transformers.EntityAIControlledByPlayerTransformer
+[17:04:15] [main/TRACE] [FML/]: Registering transformer mods.battlegear2.coremod.transformers.EntityOtherPlayerMPTransformer
+[17:04:15] [main/DEBUG] [FML/]: Injection complete
+[17:04:15] [main/DEBUG] [FML/]: Running coremod plugin for Mine and Blade: Battlegear2 {mods.battlegear2.coremod.BattlegearLoadingPlugin}
+[17:04:15] [main/DEBUG] [FML/]: Running coremod plugin Mine and Blade: Battlegear2
+[17:04:15] [main/DEBUG] [FML/]: Coremod plugin class BattlegearLoadingPlugin run successfully
+[17:04:15] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
+[17:04:15] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
+[17:04:15] [main/INFO] [battlegear2/]: M&B - Patching Class EntityPlayer (yz)
+[17:04:15] [main/INFO] [battlegear2/]: 	Adding new fields to EntityPlayer
+[17:04:15] [main/INFO] [battlegear2/]: 	Patching constructor in EntityPlayer
+[17:04:15] [main/INFO] [battlegear2/]: 	Patching method onUpdate in EntityPlayer
+[17:04:15] [main/INFO] [battlegear2/]: 	Patching method onItemUseFinish in EntityPlayer
+[17:04:15] [main/INFO] [battlegear2/]: 	Patching method interactWith in EntityPlayer
+[17:04:15] [main/INFO] [battlegear2/]: 	Patching method setCurrentItemOrArmor in EntityPlayer
+[17:04:15] [main/INFO] [battlegear2/]: 	Creating new methods in EntityPlayer
+[17:04:15] [main/INFO] [battlegear2/]: M&B - Patching Class EntityPlayer done
+[17:04:15] [main/INFO] [LaunchWrapper/]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[17:04:17] [main/INFO] [battlegear2/]: M&B - Patching Class ItemStack (add)
+[17:04:17] [main/INFO] [battlegear2/]: M&B - Patching Class ItemStack done
+[17:04:19] [Server thread/INFO] [MinecraftForge/]: Attempting early MinecraftForge initialization
+[17:04:19] [Server thread/INFO] [FML/]: MinecraftForge v10.13.4.1614 Initialized
+[17:04:19] [Server thread/INFO] [FML/]: Replaced 183 ore recipies
+[17:04:19] [Server thread/INFO] [MinecraftForge/]: Completed early MinecraftForge initialization
+[17:04:19] [Server thread/DEBUG] [FML/]: File /home/minecraftmods/forge1.7/config/injectedDependencies.json not found. No dependencies injected
+[17:04:19] [Server thread/DEBUG] [FML/]: Building injected Mod Containers [cpw.mods.fml.common.FMLContainer, net.minecraftforge.common.ForgeModContainer, com.gildedgames.util.threadedlighting.ThreadedLighting]
+[17:04:19] [Server thread/DEBUG] [FML/]: Attempting to load mods contained in the minecraft jar file and associated classes
+[17:04:19] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /home/minecraftmods/forge1.7/forge-1.7.10-10.13.4.1614-1.7.10-universal.jar, examining for mod candidates
+[17:04:19] [Server thread/TRACE] [FML/]: Skipping known library file /home/minecraftmods/forge1.7/mods/1.7.10-MB_Battlegear2-Bullseye-1.0.8.3.jar
+[17:04:19] [Server thread/TRACE] [FML/]: Skipping known library file /home/minecraftmods/forge1.7/mods/gilded-games-util-1.7.10-1.9.jar
+[17:04:19] [Server thread/DEBUG] [FML/]: Minecraft jar mods loaded successfully
+[17:04:19] [Server thread/INFO] [FML/]: Found 0 mods from the command line. Injecting into mod discoverer
+[17:04:19] [Server thread/INFO] [FML/]: Searching /home/minecraftmods/forge1.7/mods for mods
+[17:04:19] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file 1.7.10-MB_Battlegear2-Bullseye-1.0.8.3.jar
+[17:04:19] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file [1.7.10]bspkrsCore-universal-6.15 (1).jar
+[17:04:19] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file [1.7.10]Treecapitator-universal-2.0.4.jar
+[17:04:19] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file aether-1.7.10-1.6.jar
+[17:04:19] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file backpack-2.0.1-1.7.x.jar
+[17:04:19] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file BiblioCraft[v1.11.7][MC1.7.10].jar
+[17:04:19] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file CustomMobSpawner+3.3.0.zip
+[17:04:19] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file DrZharks+MoCreatures+Mod+v6.3.1.zip
+[17:04:19] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file EnchantingPlus-1.7.10-3.0.2-d.jar
+[17:04:19] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file EvilCraft-1.7.10.jar
+[17:04:19] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file farlanders-1.7.10-v1.2b (1).jar
+[17:04:19] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file gilded-games-util-1.7.10-1.9.jar
+[17:04:19] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file GraveStone+Mod+0.7.10.3.jar
+[17:04:19] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file ironchest-1.7.10-6.0.62.742-universal.jar
+[17:04:19] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file ironfurnaces-1.2.4R.jar
+[17:04:19] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file MCA-1.7.10-5.2.2-universal.jar
+[17:04:19] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file More-Pickaxes-Mod-1.7.10.jar
+[17:04:19] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file MrCrayfishFurnitureModv3.4.7(1.7.10).jar
+[17:04:19] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file Ore-Spawn-Mod-1.7.10 (1).zip
+[17:04:19] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file RadixCore-1.7.10-2.1.3-universal.jar
+[17:04:19] [Server thread/DEBUG] [FML/]: Examining file forge-1.7.10-10.13.4.1614-1.7.10-universal.jar for potential mods
+[17:04:19] [Server thread/DEBUG] [FML/]: The mod container forge-1.7.10-10.13.4.1614-1.7.10-universal.jar appears to be missing an mcmod.info file
+[17:04:20] [Server thread/DEBUG] [FML/]: Examining file 1.7.10-MB_Battlegear2-Bullseye-1.0.8.3.jar for potential mods
+[17:04:20] [Server thread/TRACE] [FML/]: Located mcmod.info file in file 1.7.10-MB_Battlegear2-Bullseye-1.0.8.3.jar
+[17:04:20] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (mods.battlegear2.Battlegear) - loading
+[17:04:20] [Server thread/TRACE] [battlegear2/]: Parsed dependency info : [] [] []
+[17:04:20] [Server thread/DEBUG] [FML/]: Examining file [1.7.10]bspkrsCore-universal-6.15 (1).jar for potential mods
+[17:04:20] [Server thread/TRACE] [FML/]: Located mcmod.info file in file [1.7.10]bspkrsCore-universal-6.15 (1).jar
+[17:04:20] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (bspkrs.bspkrscore.fml.bspkrsCoreMod) - loading
+[17:04:20] [Server thread/TRACE] [bspkrsCore/]: Using mcmod dependency info : [Forge@[10.13.2.1230,)] [Forge@[10.13.2.1230,)] []
+[17:04:20] [Server thread/DEBUG] [FML/]: Examining file [1.7.10]Treecapitator-universal-2.0.4.jar for potential mods
+[17:04:20] [Server thread/TRACE] [FML/]: Located mcmod.info file in file [1.7.10]Treecapitator-universal-2.0.4.jar
+[17:04:20] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (bspkrs.treecapitator.TreecapitatorMod) - loading
+[17:04:20] [Server thread/TRACE] [Treecapitator/]: Using mcmod dependency info : [Forge@[10.13.2.1232,), bspkrsCore@[6.15,)] [Forge@[10.13.2.1232,), bspkrsCore@[6.15,)] []
+[17:04:20] [Server thread/DEBUG] [FML/]: Examining file aether-1.7.10-1.6.jar for potential mods
+[17:04:20] [Server thread/TRACE] [FML/]: Located mcmod.info file in file aether-1.7.10-1.6.jar
+[17:04:20] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (net.aetherteam.aether.Aether) - loading
+[17:04:20] [Server thread/TRACE] [aether/]: Using mcmod dependency info : [Forge, gilded-games-util] [gilded-games-util] []
+[17:04:20] [Server thread/DEBUG] [FML/]: Examining file backpack-2.0.1-1.7.x.jar for potential mods
+[17:04:20] [Server thread/TRACE] [FML/]: Located mcmod.info file in file backpack-2.0.1-1.7.x.jar
+[17:04:20] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (de.eydamos.backpack.Backpack) - loading
+[17:04:20] [Server thread/TRACE] [Backpack/]: Parsed dependency info : [] [] []
+[17:04:20] [Server thread/DEBUG] [FML/]: Examining file BiblioCraft[v1.11.7][MC1.7.10].jar for potential mods
+[17:04:20] [Server thread/TRACE] [FML/]: Located mcmod.info file in file BiblioCraft[v1.11.7][MC1.7.10].jar
+[17:04:20] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (jds.bibliocraft.BiblioCraft) - loading
+[17:04:20] [Server thread/TRACE] [BiblioCraft/]: Parsed dependency info : [] [] []
+[17:04:20] [Server thread/DEBUG] [FML/]: Examining file CustomMobSpawner+3.3.0.zip for potential mods
+[17:04:20] [Server thread/TRACE] [FML/]: Located mcmod.info file in file CustomMobSpawner+3.3.0.zip
+[17:04:20] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (drzhark.customspawner.CustomSpawner) - loading
+[17:04:20] [Server thread/TRACE] [CustomSpawner/]: Parsed dependency info : [] [] []
+[17:04:20] [Server thread/DEBUG] [FML/]: Examining file DrZharks+MoCreatures+Mod+v6.3.1.zip for potential mods
+[17:04:20] [Server thread/TRACE] [FML/]: Located mcmod.info file in file DrZharks+MoCreatures+Mod+v6.3.1.zip
+[17:04:21] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (drzhark.mocreatures.MoCreatures) - loading
+[17:04:21] [Server thread/TRACE] [MoCreatures/]: Parsed dependency info : [] [] []
+[17:04:21] [Server thread/DEBUG] [FML/]: Examining file EnchantingPlus-1.7.10-3.0.2-d.jar for potential mods
+[17:04:21] [Server thread/TRACE] [FML/]: Located mcmod.info file in file EnchantingPlus-1.7.10-3.0.2-d.jar
+[17:04:21] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (com.aesireanempire.eplus.EnchantingPlus) - loading
+[17:04:21] [Server thread/TRACE] [eplus/]: Parsed dependency info : [] [] []
+[17:04:21] [Server thread/DEBUG] [FML/]: Examining file EvilCraft-1.7.10.jar for potential mods
+[17:04:21] [Server thread/TRACE] [FML/]: Located mcmod.info file in file EvilCraft-1.7.10.jar
+[17:04:21] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (evilcraft.EvilCraft) - loading
+[17:04:21] [Server thread/TRACE] [evilcraft/]: Parsed dependency info : [Forge@[10.13.3.1360,)] [Forge@[10.13.3.1360,), ThermalExpansion] []
+[17:04:21] [Server thread/DEBUG] [FML/]: Examining file farlanders-1.7.10-v1.2b (1).jar for potential mods
+[17:04:21] [Server thread/TRACE] [FML/]: Located mcmod.info file in file farlanders-1.7.10-v1.2b (1).jar
+[17:04:21] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (com.fabiulu.farlanders.common.FarlandersMod) - loading
+[17:04:21] [Server thread/TRACE] [farlanders/]: Parsed dependency info : [] [] []
+[17:04:21] [Server thread/DEBUG] [FML/]: Examining file gilded-games-util-1.7.10-1.9.jar for potential mods
+[17:04:21] [Server thread/TRACE] [FML/]: Located mcmod.info file in file gilded-games-util-1.7.10-1.9.jar
+[17:04:21] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (com.gildedgames.util.core.UtilCore) - loading
+[17:04:21] [Server thread/TRACE] [gilded-games-util/]: Parsed dependency info : [] [] [*]
+[17:04:21] [Server thread/DEBUG] [FML/]: Examining file GraveStone+Mod+0.7.10.3.jar for potential mods
+[17:04:21] [Server thread/TRACE] [FML/]: Located mcmod.info file in file GraveStone+Mod+0.7.10.3.jar
+[17:04:21] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (de.maxhenkel.gravestone.Main) - loading
+[17:04:21] [Server thread/TRACE] [gravestone/]: Parsed dependency info : [] [] []
+[17:04:21] [Server thread/DEBUG] [FML/]: Examining file ironchest-1.7.10-6.0.62.742-universal.jar for potential mods
+[17:04:21] [Server thread/TRACE] [FML/]: Located mcmod.info file in file ironchest-1.7.10-6.0.62.742-universal.jar
+[17:04:21] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (cpw.mods.ironchest.IronChest) - loading
+[17:04:21] [Server thread/TRACE] [IronChest/]: Parsed dependency info : [Forge@[10.10,), FML@[7.2,)] [Forge@[10.10,), FML@[7.2,)] []
+[17:04:21] [Server thread/DEBUG] [IronChest/]: Attempting to load the file version.properties from ironchest-1.7.10-6.0.62.742-universal.jar to locate a version number for IronChest
+[17:04:21] [Server thread/DEBUG] [IronChest/]: Found version 6.0.62.742 for mod IronChest in version.properties, using
+[17:04:21] [Server thread/DEBUG] [FML/]: Examining file ironfurnaces-1.2.4R.jar for potential mods
+[17:04:21] [Server thread/TRACE] [FML/]: Located mcmod.info file in file ironfurnaces-1.2.4R.jar
+[17:04:21] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (IronFurnaces) - loading
+[17:04:21] [Server thread/TRACE] [ironfurnaces/]: Parsed dependency info : [] [] []
+[17:04:21] [Server thread/DEBUG] [ironfurnaces/]: Attempting to load the file version.properties from ironfurnaces-1.2.4R.jar to locate a version number for ironfurnaces
+[17:04:21] [Server thread/WARN] [ironfurnaces/]: Mod ironfurnaces is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.2.4
+[17:04:21] [Server thread/DEBUG] [FML/]: Examining file MCA-1.7.10-5.2.2-universal.jar for potential mods
+[17:04:21] [Server thread/TRACE] [FML/]: Located mcmod.info file in file MCA-1.7.10-5.2.2-universal.jar
+[17:04:21] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (mca.core.MCA) - loading
+[17:04:21] [Server thread/TRACE] [MCA/]: Parsed dependency info : [RadixCore@[2.1.3,)] [RadixCore@[2.1.3,)] []
+[17:04:21] [Server thread/DEBUG] [FML/]: Examining file More-Pickaxes-Mod-1.7.10.jar for potential mods
+[17:04:21] [Server thread/DEBUG] [FML/]: The mod container More-Pickaxes-Mod-1.7.10.jar appears to be missing an mcmod.info file
+[17:04:21] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (cst7.mopickaxes.core.MoPickaxes) - loading
+[17:04:21] [Server thread/TRACE] [mopickaxes/]: Parsed dependency info : [] [] []
+[17:04:21] [Server thread/DEBUG] [FML/]: Examining file MrCrayfishFurnitureModv3.4.7(1.7.10).jar for potential mods
+[17:04:21] [Server thread/TRACE] [FML/]: Located mcmod.info file in file MrCrayfishFurnitureModv3.4.7(1.7.10).jar
+[17:04:21] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (com.mrcrayfish.furniture.MrCrayfishFurnitureMod) - loading
+[17:04:21] [Server thread/TRACE] [cfm/]: Parsed dependency info : [] [] []
+[17:04:21] [Server thread/DEBUG] [FML/]: Examining file Ore-Spawn-Mod-1.7.10 (1).zip for potential mods
+[17:04:21] [Server thread/TRACE] [FML/]: Located mcmod.info file in file Ore-Spawn-Mod-1.7.10 (1).zip
+[17:04:21] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (danger.orespawn.OreSpawnMain) - loading
+[17:04:21] [Server thread/TRACE] [OreSpawn/]: Parsed dependency info : [] [] []
+[17:04:21] [Server thread/DEBUG] [FML/]: Examining file RadixCore-1.7.10-2.1.3-universal.jar for potential mods
+[17:04:21] [Server thread/TRACE] [FML/]: Located mcmod.info file in file RadixCore-1.7.10-2.1.3-universal.jar
+[17:04:21] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (radixcore.core.RadixCore) - loading
+[17:04:21] [Server thread/TRACE] [RadixCore/]: Parsed dependency info : [] [] []
+[17:04:22] [Server thread/INFO] [FML/]: Forge Mod Loader has identified 24 mods to load
+[17:04:22] [Server thread/DEBUG] [FML/]: Found API mods.battlegear2.api.heraldry (owned by battlegear2 providing Heraldry) embedded in battlegear2
+[17:04:22] [Server thread/DEBUG] [FML/]: Found API mods.battlegear2.api.quiver (owned by battlegear2 providing Quiver) embedded in battlegear2
+[17:04:22] [Server thread/DEBUG] [FML/]: Found API mods.battlegear2.api.shield (owned by battlegear2 providing Shield) embedded in battlegear2
+[17:04:22] [Server thread/DEBUG] [FML/]: Found API mods.battlegear2.api.core (owned by battlegear2 providing BattlePlayer) embedded in battlegear2
+[17:04:22] [Server thread/DEBUG] [FML/]: Found API mods.battlegear2.api (owned by battlegear2 providing DualWield) embedded in battlegear2
+[17:04:22] [Server thread/DEBUG] [FML/]: Found API mods.battlegear2.api.weapons (owned by battlegear2 providing Weapons) embedded in battlegear2
+[17:04:22] [Server thread/DEBUG] [FML/]: Creating API container dummy for API Heraldry: owner: battlegear2, dependents: []
+[17:04:22] [Server thread/DEBUG] [FML/]: Creating API container dummy for API Quiver: owner: battlegear2, dependents: []
+[17:04:22] [Server thread/DEBUG] [FML/]: Creating API container dummy for API Shield: owner: battlegear2, dependents: []
+[17:04:22] [Server thread/DEBUG] [FML/]: Creating API container dummy for API Weapons: owner: battlegear2, dependents: []
+[17:04:22] [Server thread/DEBUG] [FML/]: Creating API container dummy for API DualWield: owner: battlegear2, dependents: []
+[17:04:22] [Server thread/DEBUG] [FML/]: Creating API container dummy for API BattlePlayer: owner: battlegear2, dependents: []
+[17:04:22] [Server thread/TRACE] [FML/]: Received a system property request ''
+[17:04:22] [Server thread/TRACE] [FML/]: System property request managing the state of 0 mods
+[17:04:22] [Server thread/DEBUG] [FML/]: After merging, found state information for 0 mods
+[17:04:22] [Server thread/DEBUG] [FML/]: Found translations in forge-1.7.10-10.13.4.1614-1.7.10-universal.jar [en_US, en_US, es_ES, fr_FR, ru_RU, de_DE, af_ZA, ar_SA, br_FR, ca_ES, cs_CZ, da_DK, el_GR, fa_IR, fi_FI, he_IL, hu_HU, it_IT, ja_JP, ko_KR, lt_LT, nb_NO, nl_NL, nn_NO, no_NO, pl_PL, pt_BR, pt_PT, ro_RO, sl_SI, sr_SP, sv_SE, tr_TR, uk_UA, vi_VN, zh_CN, zh_TW]
+[17:04:22] [Server thread/DEBUG] [FML/]: Found translations in forge-1.7.10-10.13.4.1614-1.7.10-universal.jar [en_US, en_US, es_ES, fr_FR, ru_RU, de_DE, af_ZA, ar_SA, br_FR, ca_ES, cs_CZ, da_DK, el_GR, fa_IR, fi_FI, he_IL, hu_HU, it_IT, ja_JP, ko_KR, lt_LT, nb_NO, nl_NL, nn_NO, no_NO, pl_PL, pt_BR, pt_PT, ro_RO, sl_SI, sr_SP, sv_SE, tr_TR, uk_UA, vi_VN, zh_CN, zh_TW]
+[17:04:22] [Server thread/DEBUG] [battlegear2/]: Enabling mod battlegear2
+[17:04:22] [Server thread/DEBUG] [FML/]: Found translations in 1.7.10-MB_Battlegear2-Bullseye-1.0.8.3.jar [de_DE, en_GB, en_PT, en_US, es_ES, fr_FR, pl_PL, pt_BR, ru_RU, zh_CN, zh_TW, de_DE, en_US, fr_FR, zh_CN]
+[17:04:22] [Server thread/DEBUG] [bspkrsCore/]: Enabling mod bspkrsCore
+[17:04:22] [Server thread/DEBUG] [FML/]: Found translations in [1.7.10]bspkrsCore-universal-6.15 (1).jar [en_US, cs_CZ, de_DE, ru_RU]
+[17:04:22] [Server thread/DEBUG] [Treecapitator/]: Enabling mod Treecapitator
+[17:04:22] [Server thread/DEBUG] [FML/]: Found translations in [1.7.10]Treecapitator-universal-2.0.4.jar [en_US]
+[17:04:22] [Server thread/DEBUG] [aether/]: Enabling mod aether
+[17:04:22] [Server thread/DEBUG] [FML/]: Found translations in aether-1.7.10-1.6.jar [da_DK, de_DE, el_GR, en_PT, en_US, es_ES, fi_FI, fr_FR, ja_JP, jp_JP, ko_KR, lv_LV, nl_NL, pl_PL, pt_BR, ru_RU, th_TH, tr_TR, zh_HK, zh_TW]
+[17:04:22] [Server thread/DEBUG] [Backpack/]: Enabling mod Backpack
+[17:04:22] [Server thread/DEBUG] [FML/]: Found translations in backpack-2.0.1-1.7.x.jar [de_DE, en_US]
+[17:04:22] [Server thread/DEBUG] [BiblioCraft/]: Enabling mod BiblioCraft
+[17:04:22] [Server thread/DEBUG] [FML/]: Found translations in BiblioCraft[v1.11.7][MC1.7.10].jar [ar_SA, bg_BG, cs_CZ, da_DK, de_DE, en_US, es_AR, es_ES, es_MX, es_UY, fi_FI, fr_CA, fr_FR, gr_EL, it_IT, ko_KR, lt_LT, lv_LV, nl_NL, no_NO, pl_PL, pt_BR, pt_PT, ru_RU, sv_SE, tr_TR, zh_CN, zh_HK, zh_TW]
+[17:04:22] [Server thread/DEBUG] [CustomSpawner/]: Enabling mod CustomSpawner
+[17:04:22] [Server thread/DEBUG] [MoCreatures/]: Enabling mod MoCreatures
+[17:04:22] [Server thread/DEBUG] [FML/]: Found translations in DrZharks+MoCreatures+Mod+v6.3.1.zip [en_US]
+[17:04:22] [Server thread/DEBUG] [eplus/]: Enabling mod eplus
+[17:04:22] [Server thread/DEBUG] [FML/]: Found translations in EnchantingPlus-1.7.10-3.0.2-d.jar [de_DE, en_US, ru_RU]
+[17:04:22] [Server thread/DEBUG] [evilcraft/]: Enabling mod evilcraft
+[17:04:22] [Server thread/DEBUG] [FML/]: Found translations in EvilCraft-1.7.10.jar [fr_FR, ja_JP, zh_TW, en_US, ru_RU, zh_CN]
+[17:04:22] [Server thread/DEBUG] [farlanders/]: Enabling mod farlanders
+[17:04:22] [Server thread/DEBUG] [FML/]: Found translations in farlanders-1.7.10-v1.2b (1).jar [en_US]
+[17:04:22] [Server thread/DEBUG] [gilded-games-util/]: Enabling mod gilded-games-util
+[17:04:22] [Server thread/DEBUG] [FML/]: Found translations in gilded-games-util-1.7.10-1.9.jar [en_US]
+[17:04:22] [Server thread/DEBUG] [gravestone/]: Enabling mod gravestone
+[17:04:22] [Server thread/DEBUG] [FML/]: Found translations in GraveStone+Mod+0.7.10.3.jar [de_DE, en_US]
+[17:04:22] [Server thread/DEBUG] [IronChest/]: Enabling mod IronChest
+[17:04:22] [Server thread/DEBUG] [FML/]: Found translations in ironchest-1.7.10-6.0.62.742-universal.jar [sv_SE, pl_PL, da_DK, en_US, et_EE, cs_CZ, pt_BR, en_PT, tr_TR, es_ES, fr_FR, ru_RU, nb_NO, el_GR, de_DE, zh_TW, it_IT, ko_KR, pt_PT, zh_CN, nl_NL]
+[17:04:22] [Server thread/DEBUG] [ironfurnaces/]: Enabling mod ironfurnaces
+[17:04:22] [Server thread/DEBUG] [FML/]: Found translations in ironfurnaces-1.2.4R.jar [en_US]
+[17:04:22] [Server thread/DEBUG] [MCA/]: Enabling mod MCA
+[17:04:22] [Server thread/DEBUG] [FML/]: Found translations in MCA-1.7.10-5.2.2-universal.jar [ar_SA, de_DE, en_US, es_ES, fi_FI, fr_FR, it_IT, ja_JP, ko_KR, mt_MT, pt_PT, ru_RU, sv_SE, tr_TR, zh_CN]
+[17:04:22] [Server thread/DEBUG] [mopickaxes/]: Enabling mod mopickaxes
+[17:04:22] [Server thread/DEBUG] [FML/]: Found translations in More-Pickaxes-Mod-1.7.10.jar [en_US]
+[17:04:22] [Server thread/DEBUG] [cfm/]: Enabling mod cfm
+[17:04:22] [Server thread/DEBUG] [FML/]: Found translations in MrCrayfishFurnitureModv3.4.7(1.7.10).jar [da_DK, en_US, es_AR, es_ES, nl_NL, no_NO, ro_RO, ru_RU, sv_SE]
+[17:04:22] [Server thread/DEBUG] [OreSpawn/]: Enabling mod OreSpawn
+[17:04:22] [Server thread/DEBUG] [RadixCore/]: Enabling mod RadixCore
+[17:04:22] [Server thread/TRACE] [FML/]: Verifying mod requirements are satisfied
+[17:04:22] [Server thread/TRACE] [FML/]: All mod requirements are satisfied
+[17:04:22] [Server thread/TRACE] [FML/]: Sorting mods into an ordered list
+[17:04:22] [Server thread/TRACE] [FML/]: Mod sorting completed successfully
+[17:04:22] [Server thread/DEBUG] [FML/]: Mod sorting data
+[17:04:22] [Server thread/DEBUG] [FML/]: 	gilded-games-util(Gilded Games Utility:1.7.10-1.2): gilded-games-util-1.7.10-1.9.jar (before:*)
+[17:04:22] [Server thread/DEBUG] [FML/]: 	battlegear2(Mine & Blade Battlegear 2 - Bullseye:1.7.10): 1.7.10-MB_Battlegear2-Bullseye-1.0.8.3.jar ()
+[17:04:22] [Server thread/DEBUG] [FML/]: 	bspkrsCore(bspkrsCore:6.15): [1.7.10]bspkrsCore-universal-6.15 (1).jar ()
+[17:04:22] [Server thread/DEBUG] [FML/]: 	Treecapitator(Treecapitator:1.7.10): [1.7.10]Treecapitator-universal-2.0.4.jar ()
+[17:04:22] [Server thread/DEBUG] [FML/]: 	aether(Aether II:1.7.10-1.6): aether-1.7.10-1.6.jar ()
+[17:04:22] [Server thread/DEBUG] [FML/]: 	Backpack(Backpack:2.0.1): backpack-2.0.1-1.7.x.jar ()
+[17:04:22] [Server thread/DEBUG] [FML/]: 	BiblioCraft(BiblioCraft:1.11.7): BiblioCraft[v1.11.7][MC1.7.10].jar ()
+[17:04:22] [Server thread/DEBUG] [FML/]: 	CustomSpawner(DrZhark's CustomSpawner:3.3.0): CustomMobSpawner+3.3.0.zip ()
+[17:04:22] [Server thread/DEBUG] [FML/]: 	MoCreatures(DrZhark's Mo'Creatures Mod:6.3.1): DrZharks+MoCreatures+Mod+v6.3.1.zip ()
+[17:04:22] [Server thread/DEBUG] [FML/]: 	eplus(Enchanting Plus:3.0.2-d): EnchantingPlus-1.7.10-3.0.2-d.jar ()
+[17:04:22] [Server thread/DEBUG] [FML/]: 	evilcraft(EvilCraft:0.9.12): EvilCraft-1.7.10.jar (required-after:Forge@[10.13.3.1360,);after:ThermalExpansion)
+[17:04:22] [Server thread/DEBUG] [FML/]: 	farlanders(The Farlanders:1.2b): farlanders-1.7.10-v1.2b (1).jar ()
+[17:04:22] [Server thread/DEBUG] [FML/]: 	gravestone(Gravestone:0.7.10.3): GraveStone+Mod+0.7.10.3.jar ()
+[17:04:22] [Server thread/DEBUG] [FML/]: 	IronChest(Iron Chest:6.0.62.742): ironchest-1.7.10-6.0.62.742-universal.jar (required-after:Forge@[10.10,);required-after:FML@[7.2,))
+[17:04:22] [Server thread/DEBUG] [FML/]: 	ironfurnaces(Iron Furnaces:1.2.4): ironfurnaces-1.2.4R.jar ()
+[17:04:22] [Server thread/DEBUG] [FML/]: 	RadixCore(RadixCore:2.1.3): RadixCore-1.7.10-2.1.3-universal.jar ()
+[17:04:22] [Server thread/DEBUG] [FML/]: 	MCA(Minecraft Comes Alive:1.7.10-5.2.2): MCA-1.7.10-5.2.2-universal.jar (required-after:RadixCore@[2.1.3,))
+[17:04:22] [Server thread/DEBUG] [FML/]: 	mopickaxes(Mo' Pickaxes:630): More-Pickaxes-Mod-1.7.10.jar ()
+[17:04:22] [Server thread/DEBUG] [FML/]: 	cfm(�9MrCrayfish's Furniture Mod:3.4.7): MrCrayfishFurnitureModv3.4.7(1.7.10).jar ()
+[17:04:22] [Server thread/DEBUG] [FML/]: 	OreSpawn(OreSpawn:1.7.10.20.3): Ore-Spawn-Mod-1.7.10 (1).zip ()
+[17:04:22] [Server thread/DEBUG] [FML/]: 	Heraldry(API: Heraldry:alpha): 1.7.10-MB_Battlegear2-Bullseye-1.0.8.3.jar ()
+[17:04:22] [Server thread/DEBUG] [FML/]: 	Quiver(API: Quiver:0.2): 1.7.10-MB_Battlegear2-Bullseye-1.0.8.3.jar ()
+[17:04:22] [Server thread/DEBUG] [FML/]: 	Shield(API: Shield:0.1): 1.7.10-MB_Battlegear2-Bullseye-1.0.8.3.jar ()
+[17:04:22] [Server thread/DEBUG] [FML/]: 	Weapons(API: Weapons:0.1): 1.7.10-MB_Battlegear2-Bullseye-1.0.8.3.jar ()
+[17:04:22] [Server thread/DEBUG] [FML/]: 	DualWield(API: DualWield:0.1): 1.7.10-MB_Battlegear2-Bullseye-1.0.8.3.jar ()
+[17:04:22] [Server thread/DEBUG] [FML/]: 	BattlePlayer(API: BattlePlayer:0.1): 1.7.10-MB_Battlegear2-Bullseye-1.0.8.3.jar ()
+[17:04:22] [Server thread/TRACE] [mcp/mcp]: Sending event FMLConstructionEvent to mod mcp
+[17:04:22] [Server thread/TRACE] [mcp/mcp]: Sent event FMLConstructionEvent to mod mcp
+[17:04:22] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Minecraft Coder Pack took 0.002s
+[17:04:22] [Server thread/TRACE] [FML/FML]: Sending event FMLConstructionEvent to mod FML
+[17:04:22] [Server thread/TRACE] [FML/FML]: Mod FML is using network checker : Invoking method checkModLists
+[17:04:22] [Server thread/TRACE] [FML/FML]: Testing mod FML to verify it accepts its own version in a remote connection
+[17:04:22] [Server thread/TRACE] [FML/FML]: The mod FML accepts its own version (7.10.99.99)
+[17:04:22] [Server thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, mod_ThreadedLighting, battlegear2, bspkrsCore, Treecapitator, aether, Backpack, BiblioCraft, CustomSpawner, MoCreatures, eplus, evilcraft, farlanders, gilded-games-util, gravestone, IronChest, ironfurnaces, MCA, mopickaxes, cfm, OreSpawn, RadixCore] at CLIENT
+[17:04:22] [Server thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, mod_ThreadedLighting, battlegear2, bspkrsCore, Treecapitator, aether, Backpack, BiblioCraft, CustomSpawner, MoCreatures, eplus, evilcraft, farlanders, gilded-games-util, gravestone, IronChest, ironfurnaces, MCA, mopickaxes, cfm, OreSpawn, RadixCore] at SERVER
+[17:04:22] [Server thread/TRACE] [FML/FML]: Sent event FMLConstructionEvent to mod FML
+[17:04:22] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Forge Mod Loader took 0.465s
+[17:04:22] [Server thread/TRACE] [Forge/Forge]: Sending event FMLConstructionEvent to mod Forge
+[17:04:22] [Server thread/TRACE] [FML/Forge]: Mod Forge is using network checker : No network checking performed
+[17:04:22] [Server thread/TRACE] [FML/Forge]: Testing mod Forge to verify it accepts its own version in a remote connection
+[17:04:22] [Server thread/TRACE] [FML/Forge]: The mod Forge accepts its own version (10.13.4.1614)
+[17:04:22] [Server thread/TRACE] [Forge/Forge]: Sent event FMLConstructionEvent to mod Forge
+[17:04:22] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Minecraft Forge took 0.011s
+[17:04:22] [Server thread/TRACE] [mod_ThreadedLighting/mod_ThreadedLighting]: Sending event FMLConstructionEvent to mod mod_ThreadedLighting
+[17:04:22] [Server thread/TRACE] [mod_ThreadedLighting/mod_ThreadedLighting]: Sent event FMLConstructionEvent to mod mod_ThreadedLighting
+[17:04:22] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Threaded Lighting took 0.000s
+[17:04:22] [Server thread/TRACE] [gilded-games-util/gilded-games-util]: Sending event FMLConstructionEvent to mod gilded-games-util
+[17:04:22] [Server thread/TRACE] [FML/gilded-games-util]: Mod gilded-games-util is using network checker : Accepting version 1.7.10-1.2
+[17:04:22] [Server thread/TRACE] [FML/gilded-games-util]: Testing mod gilded-games-util to verify it accepts its own version in a remote connection
+[17:04:22] [Server thread/TRACE] [FML/gilded-games-util]: The mod gilded-games-util accepts its own version (1.7.10-1.2)
+[17:04:22] [Server thread/DEBUG] [FML/gilded-games-util]: Attempting to inject @SidedProxy classes into gilded-games-util
+[17:04:22] [Server thread/TRACE] [gilded-games-util/gilded-games-util]: Sent event FMLConstructionEvent to mod gilded-games-util
+[17:04:22] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Gilded Games Utility took 0.113s
+[17:04:22] [Server thread/TRACE] [battlegear2/battlegear2]: Sending event FMLConstructionEvent to mod battlegear2
+[17:04:22] [Server thread/TRACE] [FML/battlegear2]: Mod battlegear2 is using network checker : Invoking method checkRemote
+[17:04:22] [Server thread/TRACE] [FML/battlegear2]: Testing mod battlegear2 to verify it accepts its own version in a remote connection
+[17:04:22] [Server thread/TRACE] [FML/battlegear2]: The mod battlegear2 accepts its own version (1.7.10)
+[17:04:22] [Server thread/DEBUG] [FML/battlegear2]: Attempting to inject @SidedProxy classes into battlegear2
+[17:04:22] [Server thread/TRACE] [battlegear2/battlegear2]: Sent event FMLConstructionEvent to mod battlegear2
+[17:04:22] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Mine & Blade Battlegear 2 - Bullseye took 0.042s
+[17:04:22] [Server thread/TRACE] [bspkrsCore/bspkrsCore]: Sending event FMLConstructionEvent to mod bspkrsCore
+[17:04:22] [Server thread/TRACE] [FML/bspkrsCore]: Mod bspkrsCore is using network checker : Accepting version 6.15
+[17:04:22] [Server thread/TRACE] [FML/bspkrsCore]: Testing mod bspkrsCore to verify it accepts its own version in a remote connection
+[17:04:22] [Server thread/TRACE] [FML/bspkrsCore]: The mod bspkrsCore accepts its own version (6.15)
+[17:04:22] [Server thread/DEBUG] [FML/bspkrsCore]: Attempting to inject @SidedProxy classes into bspkrsCore
+[17:04:22] [Server thread/TRACE] [bspkrsCore/bspkrsCore]: Sent event FMLConstructionEvent to mod bspkrsCore
+[17:04:22] [Server thread/DEBUG] [FML/]: Bar Step: Construction - bspkrsCore took 0.032s
+[17:04:22] [Server thread/TRACE] [Treecapitator/Treecapitator]: Sending event FMLConstructionEvent to mod Treecapitator
+[17:04:23] [Server thread/TRACE] [FML/Treecapitator]: Mod Treecapitator is using network checker : Accepting version 1.7.10
+[17:04:23] [Server thread/TRACE] [FML/Treecapitator]: Testing mod Treecapitator to verify it accepts its own version in a remote connection
+[17:04:23] [Server thread/TRACE] [FML/Treecapitator]: The mod Treecapitator accepts its own version (1.7.10)
+[17:04:23] [Server thread/DEBUG] [FML/Treecapitator]: Attempting to inject @SidedProxy classes into Treecapitator
+[17:04:23] [Server thread/TRACE] [Treecapitator/Treecapitator]: Sent event FMLConstructionEvent to mod Treecapitator
+[17:04:23] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Treecapitator took 0.028s
+[17:04:23] [Server thread/TRACE] [aether/aether]: Sending event FMLConstructionEvent to mod aether
+[17:04:23] [Server thread/TRACE] [FML/aether]: Mod aether is using network checker : Accepting version 1.7.10-1.6
+[17:04:23] [Server thread/TRACE] [FML/aether]: Testing mod aether to verify it accepts its own version in a remote connection
+[17:04:23] [Server thread/TRACE] [FML/aether]: The mod aether accepts its own version (1.7.10-1.6)
+[17:04:23] [Server thread/DEBUG] [FML/aether]: Attempting to inject @SidedProxy classes into aether
+[17:04:23] [Server thread/TRACE] [aether/aether]: Sent event FMLConstructionEvent to mod aether
+[17:04:23] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Aether II took 0.158s
+[17:04:23] [Server thread/TRACE] [Backpack/Backpack]: Sending event FMLConstructionEvent to mod Backpack
+[17:04:23] [Server thread/ERROR] [Backpack/Backpack]: The mod Backpack is expecting signature @FINGERPRINT@ for source backpack-2.0.1-1.7.x.jar, however there is no signature matching that description
+[17:04:23] [Server thread/TRACE] [FML/Backpack]: Mod Backpack is using network checker : Accepting version 2.0.1
+[17:04:23] [Server thread/TRACE] [FML/Backpack]: Testing mod Backpack to verify it accepts its own version in a remote connection
+[17:04:23] [Server thread/TRACE] [FML/Backpack]: The mod Backpack accepts its own version (2.0.1)
+[17:04:23] [Server thread/DEBUG] [FML/Backpack]: Attempting to inject @SidedProxy classes into Backpack
+[17:04:23] [Server thread/TRACE] [Backpack/Backpack]: Sent event FMLConstructionEvent to mod Backpack
+[17:04:23] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Backpack took 0.035s
+[17:04:23] [Server thread/TRACE] [BiblioCraft/BiblioCraft]: Sending event FMLConstructionEvent to mod BiblioCraft
+[17:04:23] [Server thread/TRACE] [FML/BiblioCraft]: Mod BiblioCraft is using network checker : Accepting version 1.11.7
+[17:04:23] [Server thread/TRACE] [FML/BiblioCraft]: Testing mod BiblioCraft to verify it accepts its own version in a remote connection
+[17:04:23] [Server thread/TRACE] [FML/BiblioCraft]: The mod BiblioCraft accepts its own version (1.11.7)
+[17:04:23] [Server thread/DEBUG] [FML/BiblioCraft]: Attempting to inject @SidedProxy classes into BiblioCraft
+[17:04:23] [Server thread/TRACE] [BiblioCraft/BiblioCraft]: Sent event FMLConstructionEvent to mod BiblioCraft
+[17:04:23] [Server thread/DEBUG] [FML/]: Bar Step: Construction - BiblioCraft took 0.063s
+[17:04:23] [Server thread/TRACE] [CustomSpawner/CustomSpawner]: Sending event FMLConstructionEvent to mod CustomSpawner
+[17:04:23] [Server thread/TRACE] [FML/CustomSpawner]: Mod CustomSpawner is using network checker : Accepting version 3.3.0
+[17:04:23] [Server thread/TRACE] [FML/CustomSpawner]: Testing mod CustomSpawner to verify it accepts its own version in a remote connection
+[17:04:23] [Server thread/TRACE] [FML/CustomSpawner]: The mod CustomSpawner accepts its own version (3.3.0)
+[17:04:23] [Server thread/DEBUG] [FML/CustomSpawner]: Attempting to inject @SidedProxy classes into CustomSpawner
+[17:04:23] [Server thread/TRACE] [CustomSpawner/CustomSpawner]: Sent event FMLConstructionEvent to mod CustomSpawner
+[17:04:23] [Server thread/DEBUG] [FML/]: Bar Step: Construction - DrZhark's CustomSpawner took 0.073s
+[17:04:23] [Server thread/TRACE] [MoCreatures/MoCreatures]: Sending event FMLConstructionEvent to mod MoCreatures
+[17:04:23] [Server thread/TRACE] [FML/MoCreatures]: Mod MoCreatures is using network checker : Accepting version 6.3.1
+[17:04:23] [Server thread/TRACE] [FML/MoCreatures]: Testing mod MoCreatures to verify it accepts its own version in a remote connection
+[17:04:23] [Server thread/TRACE] [FML/MoCreatures]: The mod MoCreatures accepts its own version (6.3.1)
+[17:04:23] [Server thread/DEBUG] [FML/MoCreatures]: Attempting to inject @SidedProxy classes into MoCreatures
+[17:04:23] [Server thread/TRACE] [MoCreatures/MoCreatures]: Sent event FMLConstructionEvent to mod MoCreatures
+[17:04:23] [Server thread/DEBUG] [FML/]: Bar Step: Construction - DrZhark's Mo'Creatures Mod took 0.162s
+[17:04:23] [Server thread/TRACE] [eplus/eplus]: Sending event FMLConstructionEvent to mod eplus
+[17:04:23] [Server thread/TRACE] [FML/eplus]: Mod eplus is using network checker : Accepting version 3.0.2-d
+[17:04:23] [Server thread/TRACE] [FML/eplus]: Testing mod eplus to verify it accepts its own version in a remote connection
+[17:04:23] [Server thread/TRACE] [FML/eplus]: The mod eplus accepts its own version (3.0.2-d)
+[17:04:23] [Server thread/DEBUG] [FML/eplus]: Attempting to inject @SidedProxy classes into eplus
+[17:04:23] [Server thread/TRACE] [eplus/eplus]: Sent event FMLConstructionEvent to mod eplus
+[17:04:23] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Enchanting Plus took 0.017s
+[17:04:23] [Server thread/TRACE] [evilcraft/evilcraft]: Sending event FMLConstructionEvent to mod evilcraft
+[17:04:23] [Server thread/TRACE] [FML/evilcraft]: Mod evilcraft is using network checker : Accepting version 0.9.12
+[17:04:23] [Server thread/TRACE] [FML/evilcraft]: Testing mod evilcraft to verify it accepts its own version in a remote connection
+[17:04:23] [Server thread/TRACE] [FML/evilcraft]: The mod evilcraft accepts its own version (0.9.12)
+[17:04:23] [Server thread/DEBUG] [FML/evilcraft]: Attempting to inject @SidedProxy classes into evilcraft
+[17:04:23] [Server thread/TRACE] [evilcraft/evilcraft]: Sent event FMLConstructionEvent to mod evilcraft
+[17:04:23] [Server thread/DEBUG] [FML/]: Bar Step: Construction - EvilCraft took 0.121s
+[17:04:23] [Server thread/TRACE] [farlanders/farlanders]: Sending event FMLConstructionEvent to mod farlanders
+[17:04:23] [Server thread/TRACE] [FML/farlanders]: Mod farlanders is using network checker : Accepting version 1.2b
+[17:04:23] [Server thread/TRACE] [FML/farlanders]: Testing mod farlanders to verify it accepts its own version in a remote connection
+[17:04:23] [Server thread/TRACE] [FML/farlanders]: The mod farlanders accepts its own version (1.2b)
+[17:04:23] [Server thread/DEBUG] [FML/farlanders]: Attempting to inject @SidedProxy classes into farlanders
+[17:04:23] [Server thread/TRACE] [farlanders/farlanders]: Sent event FMLConstructionEvent to mod farlanders
+[17:04:23] [Server thread/DEBUG] [FML/]: Bar Step: Construction - The Farlanders took 0.038s
+[17:04:23] [Server thread/TRACE] [gravestone/gravestone]: Sending event FMLConstructionEvent to mod gravestone
+[17:04:23] [Server thread/TRACE] [FML/gravestone]: Mod gravestone is using network checker : Accepting version 0.7.10.3
+[17:04:23] [Server thread/TRACE] [FML/gravestone]: Testing mod gravestone to verify it accepts its own version in a remote connection
+[17:04:23] [Server thread/TRACE] [FML/gravestone]: The mod gravestone accepts its own version (0.7.10.3)
+[17:04:23] [Server thread/DEBUG] [FML/gravestone]: Attempting to inject @SidedProxy classes into gravestone
+[17:04:23] [Server thread/TRACE] [gravestone/gravestone]: Sent event FMLConstructionEvent to mod gravestone
+[17:04:23] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Gravestone took 0.020s
+[17:04:23] [Server thread/TRACE] [IronChest/IronChest]: Sending event FMLConstructionEvent to mod IronChest
+[17:04:23] [Server thread/TRACE] [FML/IronChest]: Mod IronChest is using network checker : Accepting version 6.0.62.742
+[17:04:23] [Server thread/TRACE] [FML/IronChest]: Testing mod IronChest to verify it accepts its own version in a remote connection
+[17:04:23] [Server thread/TRACE] [FML/IronChest]: The mod IronChest accepts its own version (6.0.62.742)
+[17:04:23] [Server thread/DEBUG] [FML/IronChest]: Attempting to inject @SidedProxy classes into IronChest
+[17:04:23] [Server thread/TRACE] [IronChest/IronChest]: Sent event FMLConstructionEvent to mod IronChest
+[17:04:23] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Iron Chest took 0.018s
+[17:04:23] [Server thread/TRACE] [ironfurnaces/ironfurnaces]: Sending event FMLConstructionEvent to mod ironfurnaces
+[17:04:23] [Server thread/TRACE] [FML/ironfurnaces]: Mod ironfurnaces is using network checker : Accepting version 1.2.4
+[17:04:23] [Server thread/TRACE] [FML/ironfurnaces]: Testing mod ironfurnaces to verify it accepts its own version in a remote connection
+[17:04:23] [Server thread/TRACE] [FML/ironfurnaces]: The mod ironfurnaces accepts its own version (1.2.4)
+[17:04:23] [Server thread/DEBUG] [FML/ironfurnaces]: Attempting to inject @SidedProxy classes into ironfurnaces
+[17:04:23] [Server thread/TRACE] [ironfurnaces/ironfurnaces]: Sent event FMLConstructionEvent to mod ironfurnaces
+[17:04:23] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Iron Furnaces took 0.010s
+[17:04:23] [Server thread/TRACE] [RadixCore/RadixCore]: Sending event FMLConstructionEvent to mod RadixCore
+[17:04:23] [Server thread/TRACE] [FML/RadixCore]: Mod RadixCore is using network checker : Accepting version 2.1.3
+[17:04:23] [Server thread/TRACE] [FML/RadixCore]: Testing mod RadixCore to verify it accepts its own version in a remote connection
+[17:04:23] [Server thread/TRACE] [FML/RadixCore]: The mod RadixCore accepts its own version (2.1.3)
+[17:04:23] [Server thread/DEBUG] [FML/RadixCore]: Attempting to inject @SidedProxy classes into RadixCore
+[17:04:23] [Server thread/TRACE] [RadixCore/RadixCore]: Sent event FMLConstructionEvent to mod RadixCore
+[17:04:23] [Server thread/DEBUG] [FML/]: Bar Step: Construction - RadixCore took 0.017s
+[17:04:23] [Server thread/TRACE] [MCA/MCA]: Sending event FMLConstructionEvent to mod MCA
+[17:04:23] [Server thread/TRACE] [FML/MCA]: Mod MCA is using network checker : Accepting version 1.7.10-5.2.2
+[17:04:23] [Server thread/TRACE] [FML/MCA]: Testing mod MCA to verify it accepts its own version in a remote connection
+[17:04:23] [Server thread/TRACE] [FML/MCA]: The mod MCA accepts its own version (1.7.10-5.2.2)
+[17:04:23] [Server thread/DEBUG] [FML/MCA]: Attempting to inject @SidedProxy classes into MCA
+[17:04:23] [Server thread/TRACE] [MCA/MCA]: Sent event FMLConstructionEvent to mod MCA
+[17:04:23] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Minecraft Comes Alive took 0.180s
+[17:04:23] [Server thread/TRACE] [mopickaxes/mopickaxes]: Sending event FMLConstructionEvent to mod mopickaxes
+[17:04:23] [Server thread/TRACE] [FML/mopickaxes]: Mod mopickaxes is using network checker : Accepting version 630
+[17:04:23] [Server thread/TRACE] [FML/mopickaxes]: Testing mod mopickaxes to verify it accepts its own version in a remote connection
+[17:04:23] [Server thread/TRACE] [FML/mopickaxes]: The mod mopickaxes accepts its own version (630)
+[17:04:23] [Server thread/DEBUG] [FML/mopickaxes]: Attempting to inject @SidedProxy classes into mopickaxes
+[17:04:23] [Server thread/TRACE] [mopickaxes/mopickaxes]: Sent event FMLConstructionEvent to mod mopickaxes
+[17:04:23] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Mo' Pickaxes took 0.036s
+[17:04:23] [Server thread/TRACE] [cfm/cfm]: Sending event FMLConstructionEvent to mod cfm
+[17:04:24] [Server thread/TRACE] [FML/cfm]: Mod cfm is using network checker : Accepting version 3.4.7
+[17:04:24] [Server thread/TRACE] [FML/cfm]: Testing mod cfm to verify it accepts its own version in a remote connection
+[17:04:24] [Server thread/TRACE] [FML/cfm]: The mod cfm accepts its own version (3.4.7)
+[17:04:24] [Server thread/DEBUG] [FML/cfm]: Attempting to inject @SidedProxy classes into cfm
+[17:04:24] [Server thread/TRACE] [cfm/cfm]: Sent event FMLConstructionEvent to mod cfm
+[17:04:24] [Server thread/DEBUG] [FML/]: Bar Step: Construction - �9MrCrayfish's Furniture Mod took 0.098s
+[17:04:24] [Server thread/TRACE] [OreSpawn/OreSpawn]: Sending event FMLConstructionEvent to mod OreSpawn
+[17:04:24] [Server thread/TRACE] [FML/OreSpawn]: Mod OreSpawn is using network checker : Accepting version 1.7.10.20.3
+[17:04:24] [Server thread/TRACE] [FML/OreSpawn]: Testing mod OreSpawn to verify it accepts its own version in a remote connection
+[17:04:24] [Server thread/TRACE] [FML/OreSpawn]: The mod OreSpawn accepts its own version (1.7.10.20.3)
+[17:04:24] [Server thread/DEBUG] [FML/OreSpawn]: Attempting to inject @SidedProxy classes into OreSpawn
+[17:04:24] [Server thread/TRACE] [OreSpawn/OreSpawn]: Sent event FMLConstructionEvent to mod OreSpawn
+[17:04:24] [Server thread/DEBUG] [FML/]: Bar Step: Construction - OreSpawn took 0.770s
+[17:04:24] [Server thread/DEBUG] [FML/]: Bar Finished: Construction took 2.510s
+[17:04:24] [Server thread/DEBUG] [FML/]: Mod signature data
+[17:04:24] [Server thread/DEBUG] [FML/]:  	Valid Signatures:
+[17:04:24] [Server thread/DEBUG] [FML/]: 		(e3c3d50c7c986df74c645c0ac54639741c90a557) FML	(Forge Mod Loader	7.10.99.99)	forge-1.7.10-10.13.4.1614-1.7.10-universal.jar
+[17:04:24] [Server thread/DEBUG] [FML/]: 		(e3c3d50c7c986df74c645c0ac54639741c90a557) Forge	(Minecraft Forge	10.13.4.1614)	forge-1.7.10-10.13.4.1614-1.7.10-universal.jar
+[17:04:24] [Server thread/DEBUG] [FML/]:  	Missing Signatures:
+[17:04:24] [Server thread/DEBUG] [FML/]: 		mcp	(Minecraft Coder Pack	9.05)	minecraft.jar
+[17:04:24] [Server thread/DEBUG] [FML/]: 		mod_ThreadedLighting	(Threaded Lighting	1.7.10-1.0)	minecraft.jar
+[17:04:24] [Server thread/DEBUG] [FML/]: 		gilded-games-util	(Gilded Games Utility	1.7.10-1.2)	gilded-games-util-1.7.10-1.9.jar
+[17:04:24] [Server thread/DEBUG] [FML/]: 		battlegear2	(Mine & Blade Battlegear 2 - Bullseye	1.7.10)	1.7.10-MB_Battlegear2-Bullseye-1.0.8.3.jar
+[17:04:24] [Server thread/DEBUG] [FML/]: 		bspkrsCore	(bspkrsCore	6.15)	[1.7.10]bspkrsCore-universal-6.15 (1).jar
+[17:04:24] [Server thread/DEBUG] [FML/]: 		Treecapitator	(Treecapitator	1.7.10)	[1.7.10]Treecapitator-universal-2.0.4.jar
+[17:04:24] [Server thread/DEBUG] [FML/]: 		aether	(Aether II	1.7.10-1.6)	aether-1.7.10-1.6.jar
+[17:04:24] [Server thread/DEBUG] [FML/]: 		Backpack	(Backpack	2.0.1)	backpack-2.0.1-1.7.x.jar
+[17:04:24] [Server thread/DEBUG] [FML/]: 		BiblioCraft	(BiblioCraft	1.11.7)	BiblioCraft[v1.11.7][MC1.7.10].jar
+[17:04:24] [Server thread/DEBUG] [FML/]: 		CustomSpawner	(DrZhark's CustomSpawner	3.3.0)	CustomMobSpawner+3.3.0.zip
+[17:04:24] [Server thread/DEBUG] [FML/]: 		MoCreatures	(DrZhark's Mo'Creatures Mod	6.3.1)	DrZharks+MoCreatures+Mod+v6.3.1.zip
+[17:04:24] [Server thread/DEBUG] [FML/]: 		eplus	(Enchanting Plus	3.0.2-d)	EnchantingPlus-1.7.10-3.0.2-d.jar
+[17:04:24] [Server thread/DEBUG] [FML/]: 		evilcraft	(EvilCraft	0.9.12)	EvilCraft-1.7.10.jar
+[17:04:24] [Server thread/DEBUG] [FML/]: 		farlanders	(The Farlanders	1.2b)	farlanders-1.7.10-v1.2b (1).jar
+[17:04:24] [Server thread/DEBUG] [FML/]: 		gravestone	(Gravestone	0.7.10.3)	GraveStone+Mod+0.7.10.3.jar
+[17:04:24] [Server thread/DEBUG] [FML/]: 		IronChest	(Iron Chest	6.0.62.742)	ironchest-1.7.10-6.0.62.742-universal.jar
+[17:04:24] [Server thread/DEBUG] [FML/]: 		ironfurnaces	(Iron Furnaces	1.2.4)	ironfurnaces-1.2.4R.jar
+[17:04:24] [Server thread/DEBUG] [FML/]: 		RadixCore	(RadixCore	2.1.3)	RadixCore-1.7.10-2.1.3-universal.jar
+[17:04:24] [Server thread/DEBUG] [FML/]: 		MCA	(Minecraft Comes Alive	1.7.10-5.2.2)	MCA-1.7.10-5.2.2-universal.jar
+[17:04:24] [Server thread/DEBUG] [FML/]: 		mopickaxes	(Mo' Pickaxes	630)	More-Pickaxes-Mod-1.7.10.jar
+[17:04:24] [Server thread/DEBUG] [FML/]: 		cfm	(�9MrCrayfish's Furniture Mod	3.4.7)	MrCrayfishFurnitureModv3.4.7(1.7.10).jar
+[17:04:24] [Server thread/DEBUG] [FML/]: 		OreSpawn	(OreSpawn	1.7.10.20.3)	Ore-Spawn-Mod-1.7.10 (1).zip
+[17:04:24] [Server thread/INFO] [FML/]: Processing ObjectHolder annotations
+[17:04:24] [Server thread/INFO] [FML/]: Found 341 ObjectHolder annotations
+[17:04:24] [Server thread/INFO] [FML/]: Identifying ItemStackHolder annotations
+[17:04:24] [Server thread/INFO] [FML/]: Found 0 ItemStackHolder annotations
+[17:04:24] [Server thread/TRACE] [mcp/mcp]: Sending event FMLPreInitializationEvent to mod mcp
+[17:04:24] [Server thread/TRACE] [mcp/mcp]: Sent event FMLPreInitializationEvent to mod mcp
+[17:04:24] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft Coder Pack took 0.001s
+[17:04:24] [Server thread/TRACE] [FML/FML]: Sending event FMLPreInitializationEvent to mod FML
+[17:04:24] [Server thread/TRACE] [FML/FML]: Sent event FMLPreInitializationEvent to mod FML
+[17:04:24] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Forge Mod Loader took 0.000s
+[17:04:24] [Server thread/TRACE] [Forge/Forge]: Sending event FMLPreInitializationEvent to mod Forge
+[17:04:24] [Server thread/INFO] [FML/Forge]: Configured a dormant chunk cache size of 0
+[17:04:24] [Server thread/TRACE] [Forge/Forge]: Sent event FMLPreInitializationEvent to mod Forge
+[17:04:24] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft Forge took 0.088s
+[17:04:24] [Server thread/TRACE] [mod_ThreadedLighting/mod_ThreadedLighting]: Sending event FMLPreInitializationEvent to mod mod_ThreadedLighting
+[17:04:24] [Server thread/TRACE] [mod_ThreadedLighting/mod_ThreadedLighting]: Sent event FMLPreInitializationEvent to mod mod_ThreadedLighting
+[17:04:24] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Threaded Lighting took 0.001s
+[17:04:24] [Server thread/TRACE] [gilded-games-util/gilded-games-util]: Sending event FMLPreInitializationEvent to mod gilded-games-util
+[17:04:25] [Server thread/TRACE] [gilded-games-util/gilded-games-util]: Sent event FMLPreInitializationEvent to mod gilded-games-util
+[17:04:25] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Gilded Games Utility took 0.107s
+[17:04:25] [Server thread/TRACE] [battlegear2/battlegear2]: Sending event FMLPreInitializationEvent to mod battlegear2
+[17:04:25] [Server thread/TRACE] [battlegear2/battlegear2]: Sent event FMLPreInitializationEvent to mod battlegear2
+[17:04:25] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Mine & Blade Battlegear 2 - Bullseye took 0.345s
+[17:04:25] [Server thread/TRACE] [bspkrsCore/bspkrsCore]: Sending event FMLPreInitializationEvent to mod bspkrsCore
+[17:04:25] [Server thread/TRACE] [bspkrsCore/bspkrsCore]: Sent event FMLPreInitializationEvent to mod bspkrsCore
+[17:04:25] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - bspkrsCore took 0.026s
+[17:04:25] [Server thread/TRACE] [Treecapitator/Treecapitator]: Sending event FMLPreInitializationEvent to mod Treecapitator
+[17:04:25] [Server thread/INFO] [Treecapitator/Treecapitator]: Loading configuration file /home/minecraftmods/forge1.7/config/Treecapitator.cfg
+[17:04:25] [Server thread/INFO] [Treecapitator/Treecapitator]: Proceeding to load tree/mod configs from file.
+[17:04:25] [Server thread/TRACE] [Treecapitator/Treecapitator]: Sent event FMLPreInitializationEvent to mod Treecapitator
+[17:04:25] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Treecapitator took 0.132s
+[17:04:25] [Server thread/TRACE] [aether/aether]: Sending event FMLPreInitializationEvent to mod aether
+[17:04:26] [Server thread/TRACE] [aether/aether]: Sent event FMLPreInitializationEvent to mod aether
+[17:04:26] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Aether II took 1.127s
+[17:04:26] [Server thread/TRACE] [Backpack/Backpack]: Sending event FMLPreInitializationEvent to mod Backpack
+[17:04:26] [Server thread/TRACE] [Backpack/Backpack]: Sent event FMLPreInitializationEvent to mod Backpack
+[17:04:26] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Backpack took 0.034s
+[17:04:26] [Server thread/TRACE] [BiblioCraft/BiblioCraft]: Sending event FMLPreInitializationEvent to mod BiblioCraft
+[17:04:27] [Server thread/TRACE] [FML/BiblioCraft]: Automatically registered mod BiblioCraft entity SeatEntity as BiblioCraft.SeatEntity
+[17:04:27] [Server thread/TRACE] [BiblioCraft/BiblioCraft]: Sent event FMLPreInitializationEvent to mod BiblioCraft
+[17:04:27] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - BiblioCraft took 0.945s
+[17:04:27] [Server thread/TRACE] [CustomSpawner/CustomSpawner]: Sending event FMLPreInitializationEvent to mod CustomSpawner
+[17:04:27] [Server thread/TRACE] [CustomSpawner/CustomSpawner]: Sent event FMLPreInitializationEvent to mod CustomSpawner
+[17:04:27] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - DrZhark's CustomSpawner took 0.212s
+[17:04:27] [Server thread/TRACE] [MoCreatures/MoCreatures]: Sending event FMLPreInitializationEvent to mod MoCreatures
+[17:04:28] [Server thread/TRACE] [MoCreatures/MoCreatures]: Sent event FMLPreInitializationEvent to mod MoCreatures
+[17:04:28] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - DrZhark's Mo'Creatures Mod took 0.394s
+[17:04:28] [Server thread/TRACE] [eplus/eplus]: Sending event FMLPreInitializationEvent to mod eplus
+[17:04:28] [Server thread/INFO] [eplus/eplus]: Initializing Configurations.
+[17:04:28] [Server thread/INFO] [eplus/eplus]: Plugin loaded: TConPlugin
+[17:04:28] [Server thread/INFO] [eplus/eplus]: Plugin loaded: Treecapitatior
+[17:04:28] [Server thread/INFO] [eplus/eplus]: Plugin loaded: ThaumcraftPlugin
+[17:04:28] [Server thread/INFO] [eplus/eplus]: Plugin initialized in PreInit... Treecapitatior
+[17:04:28] [Server thread/INFO] [eplus/eplus]: Plugin initialized in PreInit... ThaumcraftPlugin
+[17:04:28] [Server thread/INFO] [eplus/eplus]: Initializing Blocks.
+[17:04:28] [Server thread/INFO] [eplus/eplus]: Initializing Items.
+[17:04:28] [Server thread/TRACE] [eplus/eplus]: Sent event FMLPreInitializationEvent to mod eplus
+[17:04:28] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Enchanting Plus took 0.059s
+[17:04:28] [Server thread/TRACE] [evilcraft/evilcraft]: Sending event FMLPreInitializationEvent to mod evilcraft
+[17:04:28] [Server thread/INFO] [EvilCraft/evilcraft]: preInit()
+[17:04:28] [Server thread/INFO] [EvilCraft/evilcraft]: Registered general
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered paling
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered evilcraftblood
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered evilcraftpoison
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered blockBlood
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered darkOre
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered darkBlock
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered bloodStainedBlock
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered lightningBomb
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered bloodInfuser
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered bloodyCobblestone
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered netherMonsterBlock
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Skipped registering excrementPile
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered hardenedBlood
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered obscuredGlass
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered bloodChest
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered environmentalAccumulator
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered undeadLeaves
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered undeadLog
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered undeadSapling
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered undeadPlank
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered blockPoison
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered invisibleRedstoneBlock
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered purifier
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered darkBrick
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered darkBloodBrick
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered spiritFurnace
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered darkTank
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered sanguinaryPedestal
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered spikedPlate
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered spiritReanimator
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered entangledChalice
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered darkPowerGemBlock
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered gemStoneTorch
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered eternalWaterBlock
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered bloodWaxedCoalBlock
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered spiritPortal
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered colossalBloodChest
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered reinforcedUndeadPlank
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered sanguinaryEnvironmentalAccumulator
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered werewolfBone
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered werewolfFlesh
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered lightningGrenade
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered redstoneGrenade
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered bucketBlood
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered bloodExtractor
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered darkGem
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered darkStick
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered weatherContainer
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered bloodPearlOfTeleportation
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered broom
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered hardenedBloodShard
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered darkPowerGem
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered bloodInfusionCore
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered bloodContainer
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered poisonSac
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered bucketPoison
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered werewolfFur
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered blook
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered potentiaSphere
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered invertedPotentia
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered maceOfDistortion
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered kineticator
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered vengeanceRing
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered vengeanceFocus
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered vengeancePickaxe
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered burningGemStone
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered darkGemCrushed
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered veinSword
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered creativeBloodDrop
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered darkSpike
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered exaltedCrafter
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered necromancerStaff
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered invigoratingPendant
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered corruptedTear
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered promise
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered promiseAcceptor
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered bowlOfPromises
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered dullDust
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered bloodWaxedCoal
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered enderTear
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered bloodPotash
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered bucketEternalWater
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered bloodOrb
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered sceptreOfThunder
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered originsOfDarkness
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered darkenedApple
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered effortlessRing
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered condensedBlood
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered rejuvenatedFlesh
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered primedPendant
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered goldenString
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered biomeExtract
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered environmentalAccumulationCore
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered maceOfDestruction
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered garmonbozia
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered poisonBottle
+[17:04:29] [Server thread/TRACE] [FML/evilcraft]: Automatically registered mod evilcraft entity entityLightningGrenade as evilcraft.entityLightningGrenade
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered entityLightningGrenade
+[17:04:29] [Server thread/TRACE] [FML/evilcraft]: Automatically registered mod evilcraft entity entityRedstoneGrenade as evilcraft.entityRedstoneGrenade
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered entityRedstoneGrenade
+[17:04:29] [Server thread/TRACE] [FML/evilcraft]: Automatically registered mod evilcraft entity entityBloodPearl as evilcraft.entityBloodPearl
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered entityBloodPearl
+[17:04:29] [Server thread/TRACE] [FML/evilcraft]: Automatically registered mod evilcraft entity broomEntity as evilcraft.broomEntity
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered broomEntity
+[17:04:29] [Server thread/TRACE] [FML/evilcraft]: Automatically registered mod evilcraft entity entityWeatherContainer as evilcraft.entityWeatherContainer
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered entityWeatherContainer
+[17:04:29] [Server thread/TRACE] [FML/evilcraft]: Automatically registered mod evilcraft entity entityItemEmpowerable as evilcraft.entityItemEmpowerable
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered entityItemEmpowerable
+[17:04:29] [Server thread/TRACE] [FML/evilcraft]: Automatically registered mod evilcraft entity entityItemUndespawnable as evilcraft.entityItemUndespawnable
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered entityItemUndespawnable
+[17:04:29] [Server thread/TRACE] [FML/evilcraft]: Automatically registered mod evilcraft entity entityItemDarkStick as evilcraft.entityItemDarkStick
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered entityItemDarkStick
+[17:04:29] [Server thread/TRACE] [FML/evilcraft]: Automatically registered mod evilcraft entity entityBiomeExtract as evilcraft.entityBiomeExtract
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered entityBiomeExtract
+[17:04:29] [Server thread/TRACE] [FML/evilcraft]: Automatically registered mod evilcraft entity entityLightningBomb as evilcraft.entityLightningBomb
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered entityLightningBomb
+[17:04:29] [Server thread/DEBUG] [FML/evilcraft]: Skipping automatic mod evilcraft entity registration for already registered class evilcraft.entity.monster.Werewolf
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered werewolf
+[17:04:29] [Server thread/DEBUG] [FML/evilcraft]: Skipping automatic mod evilcraft entity registration for already registered class evilcraft.entity.monster.Netherfish
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered netherfish
+[17:04:29] [Server thread/DEBUG] [FML/evilcraft]: Skipping automatic mod evilcraft entity registration for already registered class evilcraft.entity.monster.PoisonousLibelle
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered poisonousLibelle
+[17:04:29] [Server thread/DEBUG] [FML/evilcraft]: Skipping automatic mod evilcraft entity registration for already registered class evilcraft.entity.monster.VengeanceSpirit
+[17:04:29] [Server thread/INFO] [EvilCraft/evilcraft]: Registered vengeanceSpirit
+[17:04:30] [Server thread/INFO] [battlegear2/evilcraft]: M&B - Patching Class EntityAIControlledByPlayer (ub)
+[17:04:30] [Server thread/INFO] [battlegear2/evilcraft]: 	Patching method updateTask in EntityAIControlledByPlayer
+[17:04:30] [Server thread/INFO] [battlegear2/evilcraft]: M&B - Patching Class EntityAIControlledByPlayer done
+[17:04:30] [Server thread/INFO] [EvilCraft/evilcraft]: Registered boxOfEternalClosure
+[17:04:30] [Server thread/DEBUG] [FML/evilcraft]: Skipping automatic mod evilcraft entity registration for already registered class evilcraft.entity.monster.ControlledZombie
+[17:04:30] [Server thread/INFO] [EvilCraft/evilcraft]: Registered controlledZombie
+[17:04:30] [Server thread/INFO] [EvilCraft/evilcraft]: Registered werewolfVillager
+[17:04:30] [Server thread/TRACE] [FML/evilcraft]: Automatically registered mod evilcraft entity entityNeutronBeam as evilcraft.entityNeutronBeam
+[17:04:30] [Server thread/INFO] [EvilCraft/evilcraft]: Registered entityNeutronBeam
+[17:04:30] [Server thread/TRACE] [FML/evilcraft]: Automatically registered mod evilcraft entity entityNecromancersHead as evilcraft.entityNecromancersHead
+[17:04:30] [Server thread/INFO] [EvilCraft/evilcraft]: Registered entityNecromancersHead
+[17:04:30] [Server thread/INFO] [EvilCraft/evilcraft]: Registered unusing
+[17:04:30] [Server thread/INFO] [EvilCraft/evilcraft]: Registered breaking
+[17:04:30] [Server thread/INFO] [EvilCraft/evilcraft]: Registered lifeStealing
+[17:04:30] [Server thread/INFO] [EvilCraft/evilcraft]: Registered poisonTip
+[17:04:30] [Server thread/INFO] [EvilCraft/evilcraft]: Registered biomeDegraded
+[17:04:30] [Server thread/INFO] [EvilCraft/evilcraft]: Registered biome
+[17:04:30] [Server thread/INFO] [EvilCraft/evilcraft]: Registered knockbackDistort
+[17:04:30] [Server thread/INFO] [EvilCraft/evilcraft]: Registered mobSpawn
+[17:04:30] [Server thread/INFO] [EvilCraft/evilcraft]: Registered nauseate
+[17:04:30] [Server thread/INFO] [EvilCraft/evilcraft]: Registered particle
+[17:04:30] [Server thread/INFO] [EvilCraft/evilcraft]: Registered sound
+[17:04:30] [Server thread/INFO] [EvilCraft/evilcraft]: Skipped registering terraform
+[17:04:30] [Server thread/INFO] [EvilCraft/evilcraft]: Registered paling
+[17:04:31] [Server thread/TRACE] [evilcraft/evilcraft]: Sent event FMLPreInitializationEvent to mod evilcraft
+[17:04:31] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - EvilCraft took 2.692s
+[17:04:31] [Server thread/TRACE] [farlanders/farlanders]: Sending event FMLPreInitializationEvent to mod farlanders
+[17:04:31] [Server thread/TRACE] [farlanders/farlanders]: Sent event FMLPreInitializationEvent to mod farlanders
+[17:04:31] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - The Farlanders took 0.154s
+[17:04:31] [Server thread/TRACE] [gravestone/gravestone]: Sending event FMLPreInitializationEvent to mod gravestone
+[17:04:31] [Server thread/TRACE] [gravestone/gravestone]: Sent event FMLPreInitializationEvent to mod gravestone
+[17:04:31] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Gravestone took 0.008s
+[17:04:31] [Server thread/TRACE] [IronChest/IronChest]: Sending event FMLPreInitializationEvent to mod IronChest
+[17:04:31] [Server thread/DEBUG] [IronChest/IronChest]: Attempting to load the file version.properties from ironchest-1.7.10-6.0.62.742-universal.jar to locate a version number for IronChest
+[17:04:31] [Server thread/TRACE] [IronChest/IronChest]: Sent event FMLPreInitializationEvent to mod IronChest
+[17:04:31] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Iron Chest took 0.020s
+[17:04:31] [Server thread/TRACE] [ironfurnaces/ironfurnaces]: Sending event FMLPreInitializationEvent to mod ironfurnaces
+[17:04:31] [Server thread/TRACE] [ironfurnaces/ironfurnaces]: Sent event FMLPreInitializationEvent to mod ironfurnaces
+[17:04:31] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Iron Furnaces took 0.026s
+[17:04:31] [Server thread/TRACE] [RadixCore/RadixCore]: Sending event FMLPreInitializationEvent to mod RadixCore
+[17:04:31] [Server thread/TRACE] [RadixCore/RadixCore]: Sent event FMLPreInitializationEvent to mod RadixCore
+[17:04:31] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - RadixCore took 0.014s
+[17:04:31] [Server thread/TRACE] [MCA/MCA]: Sending event FMLPreInitializationEvent to mod MCA
+[17:04:31] [Server thread/INFO] [RadixCore/MCA]: Loaded language en_US for mca.
+[17:04:31] [Server thread/TRACE] [MCA/MCA]: Sent event FMLPreInitializationEvent to mod MCA
+[17:04:31] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft Comes Alive took 0.101s
+[17:04:31] [Server thread/TRACE] [mopickaxes/mopickaxes]: Sending event FMLPreInitializationEvent to mod mopickaxes
+[17:04:31] [Server thread/TRACE] [mopickaxes/mopickaxes]: Sent event FMLPreInitializationEvent to mod mopickaxes
+[17:04:31] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Mo' Pickaxes took 0.008s
+[17:04:31] [Server thread/TRACE] [cfm/cfm]: Sending event FMLPreInitializationEvent to mod cfm
+[17:04:31] [Server thread/TRACE] [cfm/cfm]: Sent event FMLPreInitializationEvent to mod cfm
+[17:04:31] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - �9MrCrayfish's Furniture Mod took 0.164s
+[17:04:31] [Server thread/TRACE] [OreSpawn/OreSpawn]: Sending event FMLPreInitializationEvent to mod OreSpawn
+[17:04:31] [Thread-5/INFO] [EvilCraft/evilcraft]: The version stats server returned an invalid answer.
+[17:04:31] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.SunspotUrchin
+[17:04:31] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.WaterBall
+[17:04:31] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.InkSack
+[17:04:31] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.LaserBall
+[17:04:31] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.IceBall
+[17:04:31] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Acid
+[17:04:31] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.DeadIrukandji
+[17:04:31] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.BerthaHit
+[17:04:31] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.PurplePower
+[17:04:31] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.EntityThrownRock
+[17:04:31] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Girlfriend
+[17:04:31] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.RedCow
+[17:04:31] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.GoldCow
+[17:04:31] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.EnchantedCow
+[17:04:31] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.EntityButterfly
+[17:04:31] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.EntityLunaMoth
+[17:04:31] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.EntityMosquito
+[17:04:31] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Firefly
+[17:04:31] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Bee
+[17:04:31] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Mothra
+[17:04:31] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.EntityAnt
+[17:04:31] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.EntityRedAnt
+[17:04:31] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.EntityRainbowAnt
+[17:04:31] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.EntityUnstableAnt
+[17:04:31] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Robot1
+[17:04:31] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Robot2
+[17:04:31] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Robot3
+[17:04:31] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Robot4
+[17:04:31] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Robot5
+[17:04:31] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Alosaurus
+[17:04:31] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Cryolophosaurus
+[17:04:31] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Basilisk
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Camarasaurus
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Hydrolisc
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.VelocityRaptor
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Dragonfly
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.EmperorScorpion
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Scorpion
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.CaveFisher
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Spyro
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Baryonyx
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.GammaMetroid
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Cockateil
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.RubyBird
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Kyuubi
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.WaterDragon
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.AttackSquid
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Alien
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Elevator
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Kraken
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Lizard
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Cephadrome
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Dragon
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Chipmunk
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Gazelle
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Ostrich
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.TrooperBug
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.SpitBug
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.StinkBug
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Tshirt
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Island
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.IslandToo
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.CreepingHorror
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.TerribleTerror
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.CliffRacer
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Triffid
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.PitchBlack
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.LurkingTerror
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Godzilla
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Ghost
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.GhostSkelly
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.WormSmall
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.WormMedium
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.WormLarge
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Cassowary
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.CloudShark
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.GoldFish
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.LeafMonster
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.GodzillaHead
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.EnderKnight
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.EnderReaper
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Beaver
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Termite
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Fairy
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Peacock
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Rotator
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Vortex
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.DungeonBeast
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Rat
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Flounder
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Whale
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Irukandji
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Skate
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Urchin
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Mantis
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.HerculesBeetle
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.TRex
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Stinky
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Coin
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.TheKing
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.KingHead
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.TheQueen
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.QueenHead
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Boyfriend
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.ThePrince
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Molenoid
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.SeaMonster
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.SeaViper
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.EasterBunny
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.CaterKiller
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.CrystalCow
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Leon
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Hammerhead
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.RubberDucky
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.ThePrinceTeen
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.BandP
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.RockBase
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Brutalfly
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Nastysaurus
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Pointysaurus
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Cricket
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.ThePrincess
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Frog
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.ThePrinceAdult
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.SpiderRobot
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.SpiderDriver
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.GiantRobot
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.AntRobot
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Crab
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Shoes
+[17:04:32] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.EntityCage
+[17:04:32] [Server thread/TRACE] [OreSpawn/OreSpawn]: Sent event FMLPreInitializationEvent to mod OreSpawn
+[17:04:32] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - OreSpawn took 0.800s
+[17:04:32] [Server thread/DEBUG] [FML/]: Bar Finished: PreInitialization took 7.459s
+[17:04:32] [Server thread/INFO] [FML/]: Applying holder lookups
+[17:04:32] [Server thread/INFO] [FML/]: Holder lookups applied
+[17:04:32] [Server thread/INFO] [FML/]: Injecting itemstacks
+[17:04:32] [Server thread/INFO] [FML/]: Itemstack injection complete
+[17:04:32] [Server thread/WARN] [FML/]: Can't revert to frozen GameData state without freezing first.
+[17:04:32] [Server thread/TRACE] [mcp/mcp]: Sending event FMLModIdMappingEvent to mod mcp
+[17:04:32] [Server thread/TRACE] [mcp/mcp]: Sent event FMLModIdMappingEvent to mod mcp
+[17:04:32] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Coder Pack took 0.000s
+[17:04:32] [Server thread/TRACE] [FML/FML]: Sending event FMLModIdMappingEvent to mod FML
+[17:04:32] [Server thread/TRACE] [FML/FML]: Sent event FMLModIdMappingEvent to mod FML
+[17:04:32] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Forge Mod Loader took 0.000s
+[17:04:32] [Server thread/TRACE] [Forge/Forge]: Sending event FMLModIdMappingEvent to mod Forge
+[17:04:32] [Server thread/TRACE] [Forge/Forge]: Sent event FMLModIdMappingEvent to mod Forge
+[17:04:32] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Forge took 0.003s
+[17:04:32] [Server thread/TRACE] [mod_ThreadedLighting/mod_ThreadedLighting]: Sending event FMLModIdMappingEvent to mod mod_ThreadedLighting
+[17:04:32] [Server thread/TRACE] [mod_ThreadedLighting/mod_ThreadedLighting]: Sent event FMLModIdMappingEvent to mod mod_ThreadedLighting
+[17:04:32] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Threaded Lighting took 0.000s
+[17:04:32] [Server thread/TRACE] [gilded-games-util/gilded-games-util]: Sending event FMLModIdMappingEvent to mod gilded-games-util
+[17:04:32] [Server thread/TRACE] [gilded-games-util/gilded-games-util]: Sent event FMLModIdMappingEvent to mod gilded-games-util
+[17:04:32] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Gilded Games Utility took 0.000s
+[17:04:32] [Server thread/TRACE] [battlegear2/battlegear2]: Sending event FMLModIdMappingEvent to mod battlegear2
+[17:04:32] [Server thread/TRACE] [battlegear2/battlegear2]: Sent event FMLModIdMappingEvent to mod battlegear2
+[17:04:32] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Mine & Blade Battlegear 2 - Bullseye took 0.000s
+[17:04:32] [Server thread/TRACE] [bspkrsCore/bspkrsCore]: Sending event FMLModIdMappingEvent to mod bspkrsCore
+[17:04:32] [Server thread/TRACE] [bspkrsCore/bspkrsCore]: Sent event FMLModIdMappingEvent to mod bspkrsCore
+[17:04:32] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - bspkrsCore took 0.000s
+[17:04:32] [Server thread/TRACE] [Treecapitator/Treecapitator]: Sending event FMLModIdMappingEvent to mod Treecapitator
+[17:04:32] [Server thread/TRACE] [Treecapitator/Treecapitator]: Sent event FMLModIdMappingEvent to mod Treecapitator
+[17:04:32] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Treecapitator took 0.001s
+[17:04:32] [Server thread/TRACE] [aether/aether]: Sending event FMLModIdMappingEvent to mod aether
+[17:04:32] [Server thread/TRACE] [aether/aether]: Sent event FMLModIdMappingEvent to mod aether
+[17:04:32] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Aether II took 0.000s
+[17:04:32] [Server thread/TRACE] [Backpack/Backpack]: Sending event FMLModIdMappingEvent to mod Backpack
+[17:04:32] [Server thread/TRACE] [Backpack/Backpack]: Sent event FMLModIdMappingEvent to mod Backpack
+[17:04:32] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Backpack took 0.000s
+[17:04:32] [Server thread/TRACE] [BiblioCraft/BiblioCraft]: Sending event FMLModIdMappingEvent to mod BiblioCraft
+[17:04:32] [Server thread/TRACE] [BiblioCraft/BiblioCraft]: Sent event FMLModIdMappingEvent to mod BiblioCraft
+[17:04:32] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - BiblioCraft took 0.000s
+[17:04:32] [Server thread/TRACE] [CustomSpawner/CustomSpawner]: Sending event FMLModIdMappingEvent to mod CustomSpawner
+[17:04:32] [Server thread/TRACE] [CustomSpawner/CustomSpawner]: Sent event FMLModIdMappingEvent to mod CustomSpawner
+[17:04:32] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - DrZhark's CustomSpawner took 0.000s
+[17:04:32] [Server thread/TRACE] [MoCreatures/MoCreatures]: Sending event FMLModIdMappingEvent to mod MoCreatures
+[17:04:32] [Server thread/TRACE] [MoCreatures/MoCreatures]: Sent event FMLModIdMappingEvent to mod MoCreatures
+[17:04:32] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - DrZhark's Mo'Creatures Mod took 0.000s
+[17:04:32] [Server thread/TRACE] [eplus/eplus]: Sending event FMLModIdMappingEvent to mod eplus
+[17:04:32] [Server thread/TRACE] [eplus/eplus]: Sent event FMLModIdMappingEvent to mod eplus
+[17:04:32] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Enchanting Plus took 0.000s
+[17:04:32] [Server thread/TRACE] [evilcraft/evilcraft]: Sending event FMLModIdMappingEvent to mod evilcraft
+[17:04:32] [Server thread/TRACE] [evilcraft/evilcraft]: Sent event FMLModIdMappingEvent to mod evilcraft
+[17:04:32] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - EvilCraft took 0.000s
+[17:04:32] [Server thread/TRACE] [farlanders/farlanders]: Sending event FMLModIdMappingEvent to mod farlanders
+[17:04:32] [Server thread/TRACE] [farlanders/farlanders]: Sent event FMLModIdMappingEvent to mod farlanders
+[17:04:32] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - The Farlanders took 0.000s
+[17:04:32] [Server thread/TRACE] [gravestone/gravestone]: Sending event FMLModIdMappingEvent to mod gravestone
+[17:04:32] [Server thread/TRACE] [gravestone/gravestone]: Sent event FMLModIdMappingEvent to mod gravestone
+[17:04:32] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Gravestone took 0.000s
+[17:04:32] [Server thread/TRACE] [IronChest/IronChest]: Sending event FMLModIdMappingEvent to mod IronChest
+[17:04:32] [Server thread/TRACE] [IronChest/IronChest]: Sent event FMLModIdMappingEvent to mod IronChest
+[17:04:32] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Iron Chest took 0.001s
+[17:04:32] [Server thread/TRACE] [ironfurnaces/ironfurnaces]: Sending event FMLModIdMappingEvent to mod ironfurnaces
+[17:04:32] [Server thread/TRACE] [ironfurnaces/ironfurnaces]: Sent event FMLModIdMappingEvent to mod ironfurnaces
+[17:04:32] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Iron Furnaces took 0.000s
+[17:04:32] [Server thread/TRACE] [RadixCore/RadixCore]: Sending event FMLModIdMappingEvent to mod RadixCore
+[17:04:32] [Server thread/TRACE] [RadixCore/RadixCore]: Sent event FMLModIdMappingEvent to mod RadixCore
+[17:04:32] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - RadixCore took 0.000s
+[17:04:32] [Server thread/TRACE] [MCA/MCA]: Sending event FMLModIdMappingEvent to mod MCA
+[17:04:32] [Server thread/TRACE] [MCA/MCA]: Sent event FMLModIdMappingEvent to mod MCA
+[17:04:32] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Comes Alive took 0.000s
+[17:04:32] [Server thread/TRACE] [mopickaxes/mopickaxes]: Sending event FMLModIdMappingEvent to mod mopickaxes
+[17:04:32] [Server thread/TRACE] [mopickaxes/mopickaxes]: Sent event FMLModIdMappingEvent to mod mopickaxes
+[17:04:32] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Mo' Pickaxes took 0.000s
+[17:04:32] [Server thread/TRACE] [cfm/cfm]: Sending event FMLModIdMappingEvent to mod cfm
+[17:04:32] [Server thread/TRACE] [cfm/cfm]: Sent event FMLModIdMappingEvent to mod cfm
+[17:04:32] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - �9MrCrayfish's Furniture Mod took 0.000s
+[17:04:32] [Server thread/TRACE] [OreSpawn/OreSpawn]: Sending event FMLModIdMappingEvent to mod OreSpawn
+[17:04:32] [Server thread/TRACE] [OreSpawn/OreSpawn]: Sent event FMLModIdMappingEvent to mod OreSpawn
+[17:04:32] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - OreSpawn took 0.000s
+[17:04:32] [Server thread/DEBUG] [FML/]: Bar Finished: ModIdMapping took 0.011s
+[17:04:32] [Server thread/INFO] [FML/]: Applying holder lookups
+[17:04:32] [Server thread/INFO] [FML/]: Holder lookups applied
+[17:04:32] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStoppedEvent to mod mcp
+[17:04:32] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStoppedEvent to mod mcp
+[17:04:32] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Minecraft Coder Pack took 0.000s
+[17:04:32] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStoppedEvent to mod FML
+[17:04:32] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStoppedEvent to mod FML
+[17:04:32] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Forge Mod Loader took 0.000s
+[17:04:32] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStoppedEvent to mod Forge
+[17:04:32] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStoppedEvent to mod Forge
+[17:04:32] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Minecraft Forge took 0.000s
+[17:04:32] [Server thread/TRACE] [mod_ThreadedLighting/mod_ThreadedLighting]: Sending event FMLServerStoppedEvent to mod mod_ThreadedLighting
+[17:04:32] [Server thread/TRACE] [mod_ThreadedLighting/mod_ThreadedLighting]: Sent event FMLServerStoppedEvent to mod mod_ThreadedLighting
+[17:04:32] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Threaded Lighting took 0.000s
+[17:04:32] [Server thread/TRACE] [gilded-games-util/gilded-games-util]: Sending event FMLServerStoppedEvent to mod gilded-games-util
+[17:04:32] [Server thread/TRACE] [gilded-games-util/gilded-games-util]: Sent event FMLServerStoppedEvent to mod gilded-games-util
+[17:04:32] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Gilded Games Utility took 0.000s
+[17:04:32] [Server thread/TRACE] [battlegear2/battlegear2]: Sending event FMLServerStoppedEvent to mod battlegear2
+[17:04:32] [Server thread/TRACE] [battlegear2/battlegear2]: Sent event FMLServerStoppedEvent to mod battlegear2
+[17:04:32] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Mine & Blade Battlegear 2 - Bullseye took 0.000s
+[17:04:32] [Server thread/TRACE] [bspkrsCore/bspkrsCore]: Sending event FMLServerStoppedEvent to mod bspkrsCore
+[17:04:32] [Server thread/TRACE] [bspkrsCore/bspkrsCore]: Sent event FMLServerStoppedEvent to mod bspkrsCore
+[17:04:32] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - bspkrsCore took 0.000s
+[17:04:32] [Server thread/TRACE] [Treecapitator/Treecapitator]: Sending event FMLServerStoppedEvent to mod Treecapitator
+[17:04:32] [Server thread/TRACE] [Treecapitator/Treecapitator]: Sent event FMLServerStoppedEvent to mod Treecapitator
+[17:04:32] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Treecapitator took 0.000s
+[17:04:32] [Server thread/TRACE] [aether/aether]: Sending event FMLServerStoppedEvent to mod aether
+[17:04:32] [Server thread/TRACE] [aether/aether]: Sent event FMLServerStoppedEvent to mod aether
+[17:04:32] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Aether II took 0.000s
+[17:04:32] [Server thread/TRACE] [Backpack/Backpack]: Sending event FMLServerStoppedEvent to mod Backpack
+[17:04:32] [Server thread/TRACE] [Backpack/Backpack]: Sent event FMLServerStoppedEvent to mod Backpack
+[17:04:32] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Backpack took 0.000s
+[17:04:32] [Server thread/TRACE] [BiblioCraft/BiblioCraft]: Sending event FMLServerStoppedEvent to mod BiblioCraft
+[17:04:32] [Server thread/TRACE] [BiblioCraft/BiblioCraft]: Sent event FMLServerStoppedEvent to mod BiblioCraft
+[17:04:32] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - BiblioCraft took 0.000s
+[17:04:32] [Server thread/TRACE] [CustomSpawner/CustomSpawner]: Sending event FMLServerStoppedEvent to mod CustomSpawner
+[17:04:32] [Server thread/TRACE] [CustomSpawner/CustomSpawner]: Sent event FMLServerStoppedEvent to mod CustomSpawner
+[17:04:32] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - DrZhark's CustomSpawner took 0.000s
+[17:04:32] [Server thread/TRACE] [MoCreatures/MoCreatures]: Sending event FMLServerStoppedEvent to mod MoCreatures
+[17:04:32] [Server thread/TRACE] [MoCreatures/MoCreatures]: Sent event FMLServerStoppedEvent to mod MoCreatures
+[17:04:32] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - DrZhark's Mo'Creatures Mod took 0.000s
+[17:04:32] [Server thread/TRACE] [eplus/eplus]: Sending event FMLServerStoppedEvent to mod eplus
+[17:04:32] [Server thread/TRACE] [eplus/eplus]: Sent event FMLServerStoppedEvent to mod eplus
+[17:04:32] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Enchanting Plus took 0.000s
+[17:04:32] [Server thread/TRACE] [evilcraft/evilcraft]: Sending event FMLServerStoppedEvent to mod evilcraft
+[17:04:32] [Server thread/TRACE] [evilcraft/evilcraft]: Sent event FMLServerStoppedEvent to mod evilcraft
+[17:04:32] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - EvilCraft took 0.000s
+[17:04:32] [Server thread/TRACE] [farlanders/farlanders]: Sending event FMLServerStoppedEvent to mod farlanders
+[17:04:32] [Server thread/TRACE] [farlanders/farlanders]: Sent event FMLServerStoppedEvent to mod farlanders
+[17:04:32] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - The Farlanders took 0.000s
+[17:04:32] [Server thread/TRACE] [gravestone/gravestone]: Sending event FMLServerStoppedEvent to mod gravestone
+[17:04:32] [Server thread/TRACE] [gravestone/gravestone]: Sent event FMLServerStoppedEvent to mod gravestone
+[17:04:32] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Gravestone took 0.000s
+[17:04:32] [Server thread/TRACE] [IronChest/IronChest]: Sending event FMLServerStoppedEvent to mod IronChest
+[17:04:32] [Server thread/TRACE] [IronChest/IronChest]: Sent event FMLServerStoppedEvent to mod IronChest
+[17:04:32] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Iron Chest took 0.000s
+[17:04:32] [Server thread/TRACE] [ironfurnaces/ironfurnaces]: Sending event FMLServerStoppedEvent to mod ironfurnaces
+[17:04:32] [Server thread/TRACE] [ironfurnaces/ironfurnaces]: Sent event FMLServerStoppedEvent to mod ironfurnaces
+[17:04:32] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Iron Furnaces took 0.000s
+[17:04:32] [Server thread/TRACE] [RadixCore/RadixCore]: Sending event FMLServerStoppedEvent to mod RadixCore
+[17:04:32] [Server thread/TRACE] [RadixCore/RadixCore]: Sent event FMLServerStoppedEvent to mod RadixCore
+[17:04:32] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - RadixCore took 0.000s
+[17:04:32] [Server thread/TRACE] [MCA/MCA]: Sending event FMLServerStoppedEvent to mod MCA
+[17:04:32] [Server thread/TRACE] [MCA/MCA]: Sent event FMLServerStoppedEvent to mod MCA
+[17:04:32] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Minecraft Comes Alive took 0.000s
+[17:04:32] [Server thread/TRACE] [mopickaxes/mopickaxes]: Sending event FMLServerStoppedEvent to mod mopickaxes
+[17:04:32] [Server thread/TRACE] [mopickaxes/mopickaxes]: Sent event FMLServerStoppedEvent to mod mopickaxes
+[17:04:32] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Mo' Pickaxes took 0.000s
+[17:04:32] [Server thread/TRACE] [cfm/cfm]: Sending event FMLServerStoppedEvent to mod cfm
+[17:04:32] [Server thread/TRACE] [cfm/cfm]: Sent event FMLServerStoppedEvent to mod cfm
+[17:04:32] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - �9MrCrayfish's Furniture Mod took 0.000s
+[17:04:32] [Server thread/TRACE] [OreSpawn/OreSpawn]: Sending event FMLServerStoppedEvent to mod OreSpawn
+[17:04:32] [Server thread/TRACE] [OreSpawn/OreSpawn]: Sent event FMLServerStoppedEvent to mod OreSpawn
+[17:04:32] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - OreSpawn took 0.000s
+[17:04:32] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStopped took 0.007s
+[17:04:32] [Server thread/INFO] [FML/]: The state engine was in incorrect state POSTINITIALIZATION and forced into state SERVER_STOPPED. Errors may have been discarded.

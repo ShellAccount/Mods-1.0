@@ -1,0 +1,54 @@
+---- Minecraft Crash Report ----
+// Don't do that.
+
+Time: 1/9/21 6:43 PM
+Description: Exception in server tick loop
+
+Missing Mods:
+	gilded-games-util : any
+
+cpw.mods.fml.common.MissingModsException
+	at cpw.mods.fml.common.Loader.sortModList(Loader.java:243)
+	at cpw.mods.fml.common.Loader.loadMods(Loader.java:493)
+	at cpw.mods.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:87)
+	at cpw.mods.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:314)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:117)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:387)
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:685)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.7.10
+	Operating System: Linux (amd64) version 5.8.0-1015-gcp
+	Java Version: 1.8.0_275, Private Build
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Private Build
+	Memory: 131992840 bytes (125 MB) / 563085312 bytes (537 MB) up to 3027763200 bytes (2887 MB)
+	JVM Flags: 0 total; 
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP v9.05 FML v7.10.99.99 Minecraft Forge 10.13.4.1614 17 mods loaded, 17 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	U	mcp{9.05} [Minecraft Coder Pack] (minecraft.jar) 
+	U	FML{7.10.99.99} [Forge Mod Loader] (forge-1.7.10-10.13.4.1614-1.7.10-universal.jar) 
+	U	Forge{10.13.4.1614} [Minecraft Forge] (forge-1.7.10-10.13.4.1614-1.7.10-universal.jar) 
+	U	aether{1.7.10-1.6} [Aether II] (aether-1.7.10-1.6.jar) 
+	U	Backpack{2.0.1} [Backpack] (backpack-2.0.1-1.7.x.jar) 
+	U	BiblioCraft{1.11.7} [BiblioCraft] (BiblioCraft[v1.11.7][MC1.7.10].jar) 
+	U	MoCreatures{6.3.1} [DrZhark's Mo'Creatures Mod] (DrZharks+MoCreatures+Mod+v6.3.1.zip) 
+	U	eplus{3.0.2-d} [Enchanting Plus] (EnchantingPlus-1.7.10-3.0.2-d.jar) 
+	U	evilcraft{0.9.12} [EvilCraft] (EvilCraft-1.7.10.jar) 
+	U	farlanders{1.2b} [The Farlanders] (farlanders-1.7.10-v1.2b (1).jar) 
+	U	gravestone{0.7.10.3} [Gravestone] (GraveStone+Mod+0.7.10.3.jar) 
+	U	IronChest{6.0.62.742} [Iron Chest] (ironchest-1.7.10-6.0.62.742-universal.jar) 
+	U	ironfurnaces{1.2.4} [Iron Furnaces] (ironfurnaces-1.2.4R.jar) 
+	U	MCA{1.7.10-5.2.2} [Minecraft Comes Alive] (MCA-1.7.10-5.2.2-universal.jar) 
+	U	mopickaxes{630} [Mo' Pickaxes] (More-Pickaxes-Mod-1.7.10.jar) 
+	U	cfm{3.4.7} [�9MrCrayfish's Furniture Mod] (MrCrayfishFurnitureModv3.4.7(1.7.10).jar) 
+	U	OreSpawn{1.7.10.20.3} [OreSpawn] (Ore-Spawn-Mod-1.7.10 (1).zip) 
+	Profiler Position: N/A (disabled)
+	Is Modded: Definitely; Server brand changed to 'fml,forge'
+	Type: Dedicated Server (map_server.txt)
